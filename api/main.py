@@ -12,6 +12,7 @@ import os
 import openai
 from dotenv import load_dotenv
 import re
+from mangum import Mangum
 
 load_dotenv()
 
@@ -73,3 +74,6 @@ Here are some excerpts from course material and forum posts:
         "answer": answer,
         "links": links or []
     }
+
+
+handler = Mangum(app)

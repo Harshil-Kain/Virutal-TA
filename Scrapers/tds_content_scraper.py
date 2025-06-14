@@ -86,4 +86,4 @@ filename = 'tds_all_content.json'
 with open(filename, 'w', encoding='utf-8') as f:
     json.dump(all_content, f, indent=2, ensure_ascii=False)
 
-print(f"\n✅ Scraping complete. Total pages saved: {len(all_content)} → '{filename}'")
+print(f"\n Scraping complete. Total pages saved: {len(all_content)} → '{filename}'")
