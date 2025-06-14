@@ -1,0 +1,3344 @@
+[
+  {
+    "page": "#/../outlier-detection-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Outlier Detection with Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn how to identify and handle outliers in data using Excel, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Understanding Outliers: Definition of outliers and their impact on statistical analysis.",
+          "Calculating Quartiles: Using Excel formulas to calculate Q1 (first quartile) and Q3 (third quartile).",
+          "Interquartile Range (IQR): Finding the IQR by subtracting Q1 from Q3.",
+          "Determining Bounds: Calculating lower and upper bounds using 1.5 times the IQR.",
+          "Identifying Outliers: Using Excel functions to determine if data points fall outside the calculated bounds.",
+          "Visualizing Data: Creating box plots to visualize outliers and data distribution.",
+          "Handling Outliers: Deciding whether to exclude or keep outliers based on their impact on analysis.",
+          "Understand distributions and outliers",
+          "COVID-19 vaccinations data - Excel"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../wikipedia-data-with-python",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Wikipedia Data with Python",
+        "paragraphs": [
+          "",
+          "You’ll learn how to scrape data from Wikipedia using thewikipediaPython library, covering:",
+          "Here are links and references:",
+          "NOTE: Wikipedia is constantly edited. The page may be different now from when the video was recorded. Handle accordingly."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Installing and Importing: Use pip install to get the Wikipedia library and import it with import wikipedia as wk.",
+          "Keyword Search: Use the search function to find Wikipedia pages containing a specific keyword, limiting results with the results argument.",
+          "Fetching Summaries: Use the summary function to get a concise summary of a Wikipedia page, limiting sentences with the sentences argument.",
+          "Retrieving Full Pages: Use the page function to obtain the full content of a Wikipedia page, including sections and references.",
+          "Accessing URLs: Retrieve the URL of a Wikipedia page using the url attribute of the page object.",
+          "Extracting References: Use the references attribute to get all reference links from a Wikipedia page.",
+          "Fetching Images: Access all images on a Wikipedia page via the images attribute, which returns a list of image URLs.",
+          "Extracting Tables: Use the pandas.read_html function to extract tables from the HTML content of a Wikipedia page, being mindful of table indices.",
+          "Wikipedia Library - Notebook",
+          "Learn about thewikipediapackage"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../rawgraphs",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "RAWgraphs",
+        "paragraphs": [
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "RAWgraphs",
+          "How to make Alluvial Diagram",
+          "How to make Sankey Diagram",
+          "How to make Beeswarm Plot",
+          "How to make Bump Chart",
+          "How to make Circle Packing",
+          "How to make Treemap",
+          "How to make Streamgraph",
+          "How to make Sunburst Diagram",
+          "How to make Voronoi Diagram",
+          "How to make Hexagonal Binning"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../spreadsheets",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Spreadsheet: Excel, Google Sheets",
+        "paragraphs": [
+          "You’ll use spreadsheets for data cleaning and exploration. The most popular spreadsheet program isMicrosoft Excelfollowed byGoogle Sheets.",
+          "You may be already familiar with these. If not, make sure to learn the basics of both.",
+          "Go through theMicrosoft Excelvideo trainingand make sure you cover:",
+          "Watch this video for an introduction toGoogle Sheets(49 min):",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Intro to Excel",
+          "Rows & columns",
+          "Cells",
+          "Formatting",
+          "Formulas & Functions",
+          "Tables",
+          "PivotTables"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../scraping-live-sessions",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Scraping: Live Sessions",
+        "paragraphs": [
+          "",
+          "Fundamentals of web scraping with urllib and BeautifulSoup",
+          "",
+          "Intermediate web scraping use of cookies",
+          "",
+          "XML intro and scraping",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../cors",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "CORS: Cross-Origin Resource Sharing",
+        "paragraphs": [
+          "CORS (Cross-Origin Resource Sharing) is a security mechanism that controls how web browsers handle requests between different origins (domains, protocols, or ports). Data scientists need CORS for APIs serving data or analysis to a browser on a different domain.",
+          "Watch this practical explanation of CORS (3 min):",
+          "",
+          "Key CORS concepts:",
+          "If you’re exposing your API with a GET request publicly, the only thing you need to do is set the HTTP headerAccess-Control-Allow-Origin: *.",
+          "Here are other common CORS headers:",
+          "To implement CORS in FastAPI, use theCORSMiddlewaremiddleware:",
+          "Testing CORS with JavaScript:",
+          "Useful CORS debugging tools:",
+          "Common CORS errors and solutions:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Same-Origin Policy: Browsers block requests between different origins by default",
+          "CORS Headers: Server responses must include specific headers to allow cross-origin requests",
+          "Preflight Requests: Browsers send OPTIONS requests to check if the actual request is allowed",
+          "Credentials: Special handling required for requests with cookies or authentication",
+          "CORS Checker: Test CORS configurations",
+          "Browser DevTools Network tab: Inspect CORS headers and preflight requests",
+          "cors-anywhere: CORS proxy for development",
+          "No 'Access-Control-Allow-Origin' header: Configure server to send proper CORS headers",
+          "Request header field not allowed: Add required headers toAccess-Control-Allow-Headers",
+          "Credentials flag: Set bothcredentials: 'include'andAccess-Control-Allow-Credentials: true",
+          "Wild card error: Cannot use*with credentials; specify exact origins"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../json",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "JSON",
+        "paragraphs": [
+          "JSON (JavaScript Object Notation) is the de facto standard format for data exchange on the web and APIs. Its human-readable format and widespread support make it essential for data scientists working with web services, APIs, and configuration files.",
+          "For data scientists, JSON is essential when:",
+          "Watch this comprehensive introduction to JSON (15 min):",
+          "",
+          "Key concepts to understand in JSON:",
+          "JSON Linesis a format that allows you to store multiple JSON objects in a single line.\nIt’s useful for logging and streaming data.",
+          "Tools you could use with JSON:",
+          "Common Python operations with JSON:",
+          "Practice JSON skills with these resources:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Working with REST APIs and web services",
+          "Storing configuration files and metadata",
+          "Parsing semi-structured data from databases like MongoDB",
+          "Creating data visualization specifications (e.g., Vega-Lite)",
+          "JSON only supports 6 data types: strings, numbers, booleans, null, arrays, and objects",
+          "You can nest data. Arrays and objects can contain other data types, including other arrays and objects",
+          "Always validate. Ensure JSON is well-formed. Comm errors: Trailing commas, missing quotes, and escape characters",
+          "JSONLint: Validate and format JSON",
+          "JSON Editor Online: Visual JSON editor and formatter",
+          "JSON Schema: Define the structure of your JSON data",
+          "jq: Command-line JSON processor",
+          "JSON Generator: Create sample JSON data",
+          "JSON Path Finder: Learn to navigate complex JSON structures",
+          "JSON Schema Validator: Validate JSON against schemas"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../geospatial-analysis-with-python",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Geospatial Analysis with Python",
+        "paragraphs": [
+          "",
+          "You’ll learn how to perform geospatial analysis for location-based decision making, covering:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Distance Calculation: Compute distances between various store locations and a reference point, such as the Empire State Building.",
+          "Data Visualization: Visualize store locations on a map using Python libraries like Folium.",
+          "Store Density Analysis: Determine the number of stores within a specified radius.",
+          "Proximity Analysis: Identify the closest and farthest stores from a specific location.",
+          "Decision Making: Use geospatial data to assess whether opening a new store is feasible based on existing store distribution.",
+          "Jupyter Notebook",
+          "Learn about thepandaspackageandvideo",
+          "Learn about thenumpypackageandvideo",
+          "Learn about thefoliumpackageandvideo",
+          "Learn about thegeopypackageandvideo"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../ngrok",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Tunneling: ngrok",
+        "paragraphs": [
+          "Ngrokis a tool that creates secure tunnels to your localhost, making your local development server accessible to the internet. It’s essential for testing webhooks, sharing work in progress, or debugging applications in production-like environments.",
+          "",
+          "Run the commanduvx ngrok http 8000to create a tunnel to your local server on port 8000. This generates a public URL that you can share with others.",
+          "To get started, log intongrok.comandget an authtoken from the dashboard. Copy it. Then run:",
+          "Now you can forward any local port to the internet. For example:",
+          "Here are useful things you can do withngrok http:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "ngrok http file://.to serve local files",
+          "--response-header-add \"Access-Control-Allow-Origin: *\"to enable CORS",
+          "--oauth google --oauth-client-id $CLIENT_ID --oauth-client-secret $SECRET --oauth-allow-domain example.com --oauth-allow-email user@example.orgto restrict users to @example.com anduser@example.orgusing Google Auth",
+          "--ua-filter-deny \".*bot$\"to reject user agents ending withbot"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../actor-network-visualization",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Actor Network Visualization",
+        "paragraphs": [
+          "Find the shortest path between Govinda & Angelina Jolie using IMDb data using Python:networkxorscikit-network.",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Notebook: How this video was created",
+          "The data used to visualize the network",
+          "The shortest path between actors",
+          "IMDB data",
+          "Codebase"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../scraping-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Scraping with Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn how toimport tables on the web using Excel, covering:",
+          "Here are links used in the video:",
+          "If you use Excel on Mac, the process is a bit different. SeeImporting External Data Into Excel on Mac."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Data Import from Web: Use the query feature in Excel to scrape data from websites.",
+          "Establishing Web Connections: Connect Excel to a web page using a URL.",
+          "Using Query Editor: Navigate the query editor to view and manage web data tables.",
+          "Loading Data: Load data from the web into Excel for further manipulation.",
+          "Data Transformation: Remove unnecessary columns and transform data as needed.",
+          "Applying Transformations: Track applied steps in the sequence for reproducibility.",
+          "Refreshing Data: Refresh the imported data to get the latest updates from the web.",
+          "Chennai Weather Forecast",
+          "Excel Scraping Workbook"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../function-calling",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Function Calling with OpenAI",
+        "paragraphs": [
+          "Function Callingallows Large Language Models to convert natural language into structured function calls. This is perfect for building chatbots and AI assistants that need to interact with your backend systems.",
+          "OpenAI supportsFunction Calling– a way for LLMs to suggest what functions to call and how.",
+          "",
+          "Here’s a minimal example using Python and OpenAI’s function calling that identifies the weather in a given location."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "How to define functions",
+        "paragraphs": [
+          "The function definition is aJSON schemawith a few OpenAI specific properties.\nSee theSupported schemas.",
+          "Here’s an example of a function definition for scheduling a meeting:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "How to define multiple functions",
+        "paragraphs": [
+          "You can define multiple functions by passing a list of function definitions to thetoolsparameter.",
+          "Here’s an example of a list of function definitions for handling employee expenses and calculating performance bonuses:",
+          "Best Practices:"
+        ],
+        "ordered_list": [
+          "Use Strict ModeAlways setstrict: Trueto ensure valid function callsDefine all required parametersSetadditionalProperties: False",
+          "Always setstrict: Trueto ensure valid function calls",
+          "Define all required parameters",
+          "SetadditionalProperties: False",
+          "Use tool choiceSettool_choice: \"required\"to ensure that the model will always call one or more toolsThe default istool_choice: \"auto\"which means the model will choose a tool only if appropriate",
+          "Settool_choice: \"required\"to ensure that the model will always call one or more tools",
+          "The default istool_choice: \"auto\"which means the model will choose a tool only if appropriate",
+          "Clear DescriptionsWrite detailed function and parameter descriptionsInclude expected formats and unitsMention any constraints or limitations",
+          "Write detailed function and parameter descriptions",
+          "Include expected formats and units",
+          "Mention any constraints or limitations",
+          "Error HandlingValidate function inputs before executionReturn clear error messagesHandle missing or invalid parameters",
+          "Validate function inputs before execution",
+          "Return clear error messages",
+          "Handle missing or invalid parameters"
+        ],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../llm-website-scraping",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "LLM Website Scraping",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../extracting-audio-and-transcripts",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Extracting Audio and Transcripts",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Media Processing: FFmpeg",
+        "paragraphs": [
+          "FFmpegis the standard command-line tool for processing video and audio files. It’s essential for data scientists working with media files for:",
+          "Basic Operations:",
+          "Common Data Science Tasks:",
+          "Processing Multiple Files:",
+          "Data Analysis Features:",
+          "Watch this introduction to FFmpeg (12 min):",
+          "",
+          "Tools:",
+          "Tips:",
+          "Error Handling:"
+        ],
+        "ordered_list": [
+          "Use-c copywhen possible to avoid re-encoding",
+          "Monitor progress with-progress pipe:1",
+          "Use-hide_bannerto reduce output verbosity",
+          "Test commands with small clips first",
+          "Use hardware acceleration when available (-hwaccel auto)"
+        ],
+        "unordered_list": [
+          "Extracting audio/video for machine learning",
+          "Converting formats for web deployment",
+          "Creating visualizations and presentations",
+          "Processing large media datasets",
+          "ffmpeg.lav.io: Interactive command builder",
+          "FFmpeg Explorer: Visual FFmpeg command generator",
+          "FFmpeg Buddy: Simple command generator"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Media tools: yt-dlp",
+        "paragraphs": [
+          "yt-dlpis a feature-rich command-line tool for downloading audio/video from thousands of sites. It’s particularly useful for extracting audio and transcripts from videos.",
+          "Install using your package manager:",
+          "Common operations for extracting audio and transcripts:",
+          "For Python integration:",
+          "Tools:",
+          "Note: Always respect copyright and terms of service when downloading content."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "ffmpeg: Required for audio extraction and conversion",
+          "whisper: Can be used with yt-dlp for speech-to-text",
+          "gallery-dl: Alternative for image-focused sites"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Whisper transcription",
+        "paragraphs": [
+          "Faster Whisperis a highly optimized implementation of OpenAI’sWhisper model, offering up to 4x faster transcription while using less memory.",
+          "You can install it via:",
+          "Here’s a basic usage example:",
+          "Here’s my recommendation for transcribing videos. This saves the output in JSON as well as SRT format in the source directory.",
+          "Runfaster-whisper-xxl --helpfor more options."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "pip install faster-whisper",
+          "Download Windows Standalone",
+          "--model: The OpenAI Whisper model to use. You can choose from:tiny: Fastest but least accuratebase: Good for simple audiosmall: Balanced speed/accuracymedium: Recommended defaultlarge-v3: Most accurate but slowest",
+          "tiny: Fastest but least accurate",
+          "base: Good for simple audio",
+          "small: Balanced speed/accuracy",
+          "medium: Recommended default",
+          "large-v3: Most accurate but slowest",
+          "--output_format: The output format to use. You can pick multiple formats from:json: Has the most detailed information including timing, text, quality, etc.srt: A popular subtitle format. You can use this in YouTube, for example.vtt: A modern subtitle format.txt: Just the text transcript",
+          "json: Has the most detailed information including timing, text, quality, etc.",
+          "srt: A popular subtitle format. You can use this in YouTube, for example.",
+          "vtt: A modern subtitle format.",
+          "txt: Just the text transcript",
+          "--output_dir: The directory to save the output files.sourceindicates the source directory, i.e. where the input$FILEis",
+          "--language: The language of the input file. If you don’t specify it, it analyzes the first 30 seconds to auto-detect. You can speed it up by specifying it."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Gemini transcription",
+        "paragraphs": [
+          "TheGeminimodels from Google are notable in two ways:",
+          "This allows us to use Gemini to transcribe audio files.",
+          "LLMs are not good at transcribing audiofaithfully. They tend to correct errors and meander from what was said. But they are intelligent. That enables a few powerful workflows. Here are some examples:",
+          "Here’s how to use Gemini to transcribe audio files."
+        ],
+        "ordered_list": [
+          "They have ahugeinput context window. Gemini 2.0 Flash can accept 1M tokens, for example.",
+          "They can handle audio input.",
+          "Transcribe into other languages. Gemini will handle the transcription and translation in a single step.",
+          "Summarize audio transcripts. For example, convert a podcast into a tutorial, or a meeting recording into actions.",
+          "Legal Proceeding Analysis. Extract case citations, dates, and other details from a legal debate.",
+          "Medical Consultation Summary. Extract treatments, medications, details of next visit, etc. from a medical consultation.",
+          "Get aGemini API keyfrom Google AI Studio.",
+          "Set theGEMINI_API_KEYenvironment variable to the API key.",
+          "Set theMP3_FILEenvironment variable to the path of the MP3 file you want to transcribe.",
+          "Run this code:curl-XPOST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:streamGenerateContent?alt=sse\\-H\"X-Goog-API-Key:$GEMINI_API_KEY\"\\-H\"Content-Type: application/json\"\\-d\"$(cat << EOF\n{\n  \"contents\": [\n    {\n      \"role\": \"user\",\n      \"parts\": [\n        {\n          \"inline_data\": {\n            \"mime_type\": \"audio/mp3\",\n            \"data\": \"$(base64--wrap=0$MP3_FILE)\"}},{\"text\":\"Transcribe this\"}]}]}EOF)\"Copy to clipboardErrorCopied"
+        ],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../vscode",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Editor: VS Code",
+        "paragraphs": [
+          "Your editor is the most important tool in your arsenal. That’s where you’ll spend most of your time. Make sure you’re comfortable with it.",
+          "Visual Studio Codeis,by far, the most popular code editor today. According to the2024 StackOverflow Surveyalmost 75% of developers use it. We recommend you learn it well. Even if you use another editor, you’ll be working with others who use it, and it’s a good idea to have some exposure.",
+          "Watch these introductory videos (35 min) from theVisual Studio Docsto get started:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Getting Started: Set up and learn the basics of Visual Studio Code. (7 min)",
+          "Code Editing: Learn how to edit and run code in VS Code. (3 min)",
+          "Productivity Tips: Become a VS Code power user with these productivity tips. (4 min)",
+          "Personalize: Personalize VS Code to make it yours with themes. (2 min)",
+          "Extensions: Add features, themes, and more to VS Code with extensions! (4 min)",
+          "Debugging: Get started with debugging in VS Code. (6 min)",
+          "Version Control: Learn how to use Git version control in VS Code. (3 min)",
+          "Customize: Learn how to customize your settings and keyboard shortcuts in VS Code. (6 min)"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../cleaning-data-with-openrefine",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Cleaning Data with OpenRefine",
+        "paragraphs": [
+          "",
+          "This session covers the use of OpenRefine for data cleaning, focusing on resolving entity discrepancies:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Data Upload and Project Creation: Import data into OpenRefine and create a new project for analysis.",
+          "Faceting Data: Use text facets to group similar entries and identify frequency of address crumbs.",
+          "Clustering Methodology: Apply clustering algorithms to merge similar entries with minor differences, such as punctuation.",
+          "Manual and Automated Clustering: Learn to merge clusters manually or in one go, trusting the system’s clustering accuracy.",
+          "Entity Resolution: Clean and save the data by resolving multiple versions of the same entity using Open Refine.",
+          "OpenRefine software",
+          "Dataset for OpenRefine"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../unicode",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Unicode",
+        "paragraphs": [
+          "Ever noticed when you copy-paste some text and get garbage symbols? Or see garbage when you load a CSV file? This video explains why. It covers how computers store text (called character encoding) and why it sometimes goes wonky.",
+          "Learn about ASCII (the original 7-bit encoding system that could only handle 128 characters), why that wasn’t enough for global languages, and how modern solutions like Unicode save the day by letting us use any character from any language.",
+          "Some programs try to guess encodings (sometimes badly!). A signature called BOM (Byte Order Mark)helps computers know exactly how to read text files correctly.",
+          "Learn how Unicode, UTF-8 and character encoding works. This is a common gotcha when building apps that handle international text - something bootcamps often skip but developers and data scientists regularly face in the real world.",
+          "Unicode is fundamental for data scientists working with international data. Here are key concepts you need to understand:",
+          "Common encoding issues you’ll encounter:",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Character Encodings: Different ways to represent text in computersASCII (7-bit): Limited to 128 characters, English-onlyUTF-8: Variable-width encoding, backwards compatible with ASCIIUTF-16: Fixed-width encoding, used in Windows and JavaUTF-32: Fixed-width encoding, memory inefficient but simple",
+          "ASCII (7-bit): Limited to 128 characters, English-only",
+          "UTF-8: Variable-width encoding, backwards compatible with ASCII",
+          "UTF-16: Fixed-width encoding, used in Windows and Java",
+          "UTF-32: Fixed-width encoding, memory inefficient but simple"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../forecasting-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Forecasting with Excel",
+        "paragraphs": [
+          "",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "FORECAST reference",
+          "FORECAST.ETS reference",
+          "Height-weight datasetfromKaggle",
+          "Traffic datasetfromKaggle"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../data-aggregation-in-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Aggregation in Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn data aggregation and visualization techniques in Excel, covering:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Data Cleanup: Remove empty columns and rows with missing values.",
+          "Creating Excel Tables: Convert raw data into tables for easier manipulation and formula application.",
+          "Date Manipulation: Extract week, month, and year from date columns using Excel functions (WEEKNUM, TEXT).",
+          "Color Scales: Apply color scales to visualize clusters and trends in data over time.",
+          "Pivot Tables: Create pivot tables to aggregate data by location and date, summarizing values weekly and monthly.",
+          "Sparklines: Use sparklines to visualize trends within pivot tables, making data patterns more apparent.",
+          "Data Bars: Implement data bars for graphical illustrations of numerical columns, showing trends and waves.",
+          "COVID-19 data Excel file - raw data"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../project-2",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Background",
+        "paragraphs": [
+          "You are a clever student who has joined IIT Madras’ Online Degree in Data Science. You have just enrolled in theTools in Data Sciencecourse.",
+          "To make your life easier, you have decided to build an LLM-based application that can automatically answer any of the graded assignment questions.",
+          "Specifically, you are building and deploying an API that accepts any question from one of these 5 graded assignments:",
+          "… and responds with the answer to enter in the assignment."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Graded Assignment 1",
+          "Graded Assignment 2",
+          "Graded Assignment 3",
+          "Graded Assignment 4",
+          "Graded Assignment 5"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Create an API",
+        "paragraphs": [
+          "Your application exposes an API endpoint. Let’s assume that it is athttps://your-app.vercel.app/api/.",
+          "The endpoint must accept a POST request, e.g.POST https://your-app.vercel.app/api/with the question as well as optional file attachments as multipart/form-data.",
+          "For example, here’s how anyone can make a request:",
+          "The response must be a JSON object with a single text (string) field:answerthat can be directly entered in the assignment. For example:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Deploy your application",
+        "paragraphs": [
+          "Deploy your application to a public URL that can be accessed by anyone. You may use any platform, including Vercel.",
+          "(If you use ngrok, ensure that it is running continuously until you get your results.)"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Share your code",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "Create a newpublicGitHub repository",
+          "Add an MITLICENSEfile",
+          "Commit and push your code"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Submit your URL",
+        "paragraphs": [
+          "Submit your GitHub repository URL and your API endpoint URL in this Google Form:https://forms.gle/6ZLCGEEHUHVK71Yu5."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Evaluation",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "Pre-requisites: Your repositoryMUSTmeet the following criteria to be eligible for evaluationYour GitHub repository exists and is publicly accessibleYour GitHub repository has aLICENSEfile with the MIT license",
+          "Your GitHub repository exists and is publicly accessible",
+          "Your GitHub repository has aLICENSEfile with the MIT license",
+          "We will send 5 questionsrandomlychosen from the graded assignments above. Correct answers will be awarded 4 marks each.",
+          "Your score will be the sum of the marks above. No normalization. What you get is what you get."
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../scraping-imdb-with-javascript",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Scraping IMDb with JavaScript",
+        "paragraphs": [
+          "",
+          "You’ll learn how to scrape theIMDb Top 250 moviesdirectly in the browser using JavaScript on the Chrome DevTools, covering:",
+          "Here are links and references:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Access Developer Tools: Use F12 or right-click > Inspect to open developer tools in Chrome or Edge.",
+          "Inspect Elements: Identify and inspect HTML elements using the Elements tab.",
+          "Query Selectors: Usedocument.querySelectorAllanddocument.querySelectorto find elements by CSS class.",
+          "Extract Text Content: Retrieve text content from elements using JavaScript.",
+          "Functional Programming: Applymapandarrow functionsfor concise data processing.",
+          "Data Structuring: Collect and format data into an array of arrays.",
+          "Copying Data: Use the copy function to transfer data to the clipboard.",
+          "Convert to Spreadsheet: Use online tools to convert JSON data to CSV or Excel format.",
+          "Text Manipulation: Perform text splitting and cleaning in Excel for final data formatting.",
+          "IMDB Top 250 movies",
+          "Learn about Chrome Devtools"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../scraping-emarketer",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Scraping emarketer",
+        "paragraphs": [
+          "In this live scraping session, we explore a real-life scenario where Straive had to scrape data from emarketer.com for a demo. This is a fairly realistic and representative way of how one might go about scraping a website.",
+          "",
+          "You’ll learn:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Scraping: How to extract data from web pages, including constructing URLs, fetching page content, and parsing HTML using packages likelxmlandhttpx.",
+          "Caching: Implementing a caching strategy to avoid redundant data fetching for efficiency and reliability.",
+          "Error Handling and Debugging: Practical tips for troubleshooting, such as using liberal print statements, breakpoints for in-depth debugging, and the concept of “rubber duck debugging” to clarify problems.",
+          "LLMs: Benefits of Gemini / ChatGPT for code suggestions and troubleshooting.",
+          "Real-World Application: How quick proofs of concept to showcase capabilities to clients, emphasizing practice over theory."
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../visualizing-network-data-with-kumu",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Visualizing Network Data with Kumu",
+        "paragraphs": [
+          "",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Kumu",
+          "IMDB data",
+          "Jupyter Notebook"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../data-analysis-with-duckdb",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Analysis with DuckDB",
+        "paragraphs": [
+          "",
+          "You’ll learn how to perform data analysis using DuckDB and Pandas, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Parquet for Data Storage: Understand why Parquet is a faster, more compact, and better-typed storage format compared to CSV, JSON, and SQLite.",
+          "DuckDB Setup: Learn how to install and set up DuckDB, along with integrating it into a Jupyter notebook environment.",
+          "File Format Comparisons: Compare file formats by speed and size, observing the performance difference between saving and loading data in CSV, JSON, SQLite, and Parquet.",
+          "Faster Queries with DuckDB: Learn how DuckDB uses parallel processing, columnar storage, and on-disk operations to outperform Pandas in speed and memory efficiency.",
+          "SQL Query Execution in DuckDB: Run SQL queries directly on Parquet files and Pandas DataFrames to compute metrics such as the number of unique flight routes delayed by certain time intervals.",
+          "Memory Efficiency: Understand how DuckDB performs analytics without loading entire datasets into memory, making it highly efficient for large-scale data analysis.",
+          "Mixing DuckDB and Pandas: Learn to interleave DuckDB and Pandas operations, leveraging the strengths of both tools to perform complex queries like correlations and aggregations.",
+          "Ranking and Filtering Data: Use SQL and Pandas to rank arrival delays by distance and extract key insights, such as the earliest flight arrival for each route.",
+          "Joining Data: Create a cost analysis by joining datasets and calculating total costs of flight delays, demonstrating DuckDB’s speed in joining and aggregating large datasets.",
+          "Data analysis with DuckDB - Notebook",
+          "Parquet file format- a fast columnar storage format that’s becoming a de facto standard for big data",
+          "DuckDB- a fast in-memory database that’s very good with large-scale analysis",
+          "Plotly Datasets- a collection of sample datasets for analysis. This includes theKaggle Flights Datasetthat the notebook downloads as2015_flights.parquet"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../regression-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Regression with Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn to perform regression analysis using Excel, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Data Preparation: Understanding the cleaned dataset and necessary columns for analysis.",
+          "Enabling the Tool: How to enable the Data Analysis Tool Pack in Excel.",
+          "Types of Regression: Differences between simple and multiple linear regression.",
+          "Setting Up Regression: Steps to input dependent (new deaths) and independent variables (new cases, new tests, new vaccinations, stringency index) for the analysis.",
+          "Interpreting Output: Reading the regression output, focusing on adjusted R-squared, significance value (F-test), and P-values.",
+          "Coefficient Interpretation: Understanding the impact of each independent variable on the dependent variable, including scaling factors (per 1000 units).",
+          "Model Evaluation: Evaluating the model based on significance values and understanding the implications of unexpected results (e.g., stringency index).",
+          "Further Analysis: Recognizing the need for additional analysis when encountering unexpected or inconclusive results.",
+          "Understand regression",
+          "COVID-19 vaccinations - Regression Excel file",
+          "COVID-19 vaccinations - Regression Model 2 Excel file"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../google-data-studio",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Google Data Studio",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "Google Data Studio: Google Data Studio Tutorial for Beginners🔥"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../correlation-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Correlation with Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn to calculate and interpret correlations using Excel, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Enabling the Data Analysis Tool Pack: Steps to enable the Excel data analysis tool pack.",
+          "Correlation Analysis: Understanding statistical association between variables.",
+          "Creating a Correlation Matrix: Steps to generate and interpret a correlation matrix.",
+          "Scatterplots and Trendlines: Plotting data and adding trend lines to visualize correlations.",
+          "Analyzing Results: Comparing correlation coefficients and understanding their implications.",
+          "Insights and Further Analysis: Interpreting scatterplots and planning further analysis for deeper insights.",
+          "Understand correlation",
+          "COVID-19 vaccinations data explorer - Website",
+          "COVID-19 vaccinations - Correlations Excel file"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../docker",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Containers: Docker, Podman",
+        "paragraphs": [
+          "DockerandPodmanare containerization tools that package your application and its dependencies into a standardized unit for software development and deployment.",
+          "Docker is the industry standard. Podman is compatible with Docker and has better security (and a slightly more open license). In this course, we recommend Podman but Docker works in the same way.",
+          "Initialize the container engine:",
+          "Common Operations. (You can usedockerinstead ofpodmanin the same way.)",
+          "You can create aDockerfileto build a container image. Here’s a sampleDockerfilethat converts a Python script into a container image.",
+          "To build, run, and deploy the container, run these commands:",
+          "Tools:",
+          "",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Dive: Explore image layers",
+          "Skopeo: Work with container images",
+          "Trivy: Security scanner",
+          "Optional: For Windows, seeWSL 2 with Docker getting started"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../image-compression",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Images: Compression",
+        "paragraphs": [
+          "Image compression is essential when deploying apps. Often, pages have dozens of images. Image analysis runs over thousands of images. The cost of storage and bandwidth can grow over time.",
+          "Here are things you should know when you’re compressing images:",
+          "Here’s a rule of thumb you can use as of 2025.",
+          "Common operations with Python:",
+          "Command line tools includecwebp,pngquant,jpegoptim, andImageMagick.",
+          "Watch this video on modern image formats and optimization (15 min):",
+          "",
+          "Tools for image optimization:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Image dimensionsare the width and height of the image in pixels. This impacts image size a lot",
+          "Losslesscompression (PNG, WebP) preserves exact data",
+          "Lossycompression (JPEG, WebP) removes some data for smaller files",
+          "Vectorformats (SVG) scale without quality loss",
+          "WebPis the modern standard, supporting both lossy and lossless",
+          "Use SVG if you can (i.e. if it’s vector graphics or you can convert it to one)",
+          "Else, reduce the image to as small as you can, and save as (lossy or lossless) WebP",
+          "squoosh.app: Browser-based compression",
+          "ImageOptim: GUI tool for Mac",
+          "sharp: Node.js image processing",
+          "Pillow: Python imaging library"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../scheduled-scraping-with-github-actions",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Scheduled Scraping with GitHub Actions",
+        "paragraphs": [
+          "GitHub Actions provides an excellent platform for running web scrapers on a schedule. This tutorial shows how to automate data collection from websites using GitHub Actions workflows."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Key Concepts",
+        "paragraphs": [
+          "Here’s a samplescrape.pythat scrapes the IMDb Top 250 movies using httpx and lxml:",
+          "Here’s a sample.github/workflows/imdb-top250.ymlthat runs the scraper daily and saves the data:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Scheduling: Usecron syntaxto run scrapers at specific times",
+          "Dependencies: Install required packages likehttpx,lxml",
+          "Data Storage: Save scraped data to files and commit back to the repository",
+          "Error Handling: Implement robust error handling for network issues and HTML parsing",
+          "Rate Limiting: Respect website terms of service and implement delays between requests"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Best Practices",
+        "paragraphs": [],
+        "ordered_list": [
+          "Cache Dependencies: Use GitHub’s caching to speed up package installation",
+          "Handle Errors: Implement retries and error logging",
+          "Rate Limiting: Add delays between requests to avoid overwhelming servers",
+          "Data Validation: Verify scraped data structure before saving",
+          "Monitoring: Set up notifications for workflow failures"
+        ],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Tools and Resources",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "httpx: Async HTTP client",
+          "GitHub Actions Marketplace",
+          "GitHub Actions Documentation"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Video Tutorials",
+        "paragraphs": [
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../convert-pdfs-to-markdown",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Converting PDFs to Markdown",
+        "paragraphs": [
+          "PDF documents are ubiquitous in academic, business, and technical contexts, but extracting and repurposing their content can be challenging. This tutorial explores various command-line tools for converting PDFs to Markdown format, with a focus on preserving structure and formatting suitable for different use cases, including preparation for Large Language Models (LLMs).",
+          "Use Cases:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "LLM training and fine-tuning: Create clean text data from PDFs for AI model training",
+          "Knowledge base creation: Transform PDFs into searchable, editable markdown documents",
+          "Content repurposing: Convert academic papers and reports for web publication",
+          "Data extraction: Pull structured content from PDF documents for analysis",
+          "Accessibility: Convert PDFs to more accessible formats for screen readers",
+          "Citation and reference management: Extract bibliographic information from academic papers",
+          "Documentation conversion: Transform technical PDFs into maintainable documentation"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "PyMuPDF4LLM",
+        "paragraphs": [
+          "PyMuPDF4LLMis a specialized component of the PyMuPDF library that generates Markdown specifically formatted for Large Language Models. It produces high-quality markdown with good preservation of document structure. It’s specifically optimized for producing text that works well with LLMs, removing irrelevant formatting while preserving semantic structure. Requires PyTorch, which adds dependencies but enables more advanced processing capabilities.",
+          "PyMuPDF4LLM usesMuPDFas its PDF parsing engine.PyMuPDFis emerging as a strong default for PDF text extraction due to its accuracy and performance in handling complex PDF structures."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "PYTHONUTF8=1: Forces Python to use UTF-8 encoding regardless of system locale",
+          "uv run --with pymupdf4llm: Uses uv package manager to run Python with the pymupdf4llm package",
+          "python -c '...': Executes Python code directly from the command line",
+          "import pymupdf4llm: Imports the PDF-to-Markdown module",
+          "h = open(\"pymupdf4llm.md\", \"w\"): Creates a file to write the markdown output",
+          "h.write(pymupdf4llm.to_markdown(\"$FILE.pdf\")): Converts the PDF to markdown and writes to file"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Markitdown",
+        "paragraphs": [
+          "",
+          "Markitdownis Microsoft’s tool for converting various document formats to Markdown, including PDFs, DOCX, XLSX, PPTX, and ZIP files. It’s a versatile multi-format converter that handles PDFs via PDFMiner, DOCX via Mammoth, XLSX via Pandas, and PPTX via Python-PPTX. Good for batch processing of mixed document types. The quality of PDF conversion is generally good but may struggle with complex layouts or heavily formatted documents."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "PYTHONUTF8=1: Forces Python to use UTF-8 encoding",
+          "uvx markitdown: Runs the markitdown tool via the uv package manager",
+          "$FILE.pdf: The input PDF file",
+          "> markitdown.md: Redirects output to a markdown file"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Unstructured",
+        "paragraphs": [
+          "Unstructuredis rapidly becoming the de facto library for parsing over 40 different file types. It is excellent for extracting text and tables from diverse document formats. Particularly useful for generating clean content to pass to LLMs. Strong community support and actively maintained."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "GROBID",
+        "paragraphs": [
+          "If you specifically need to parse references from text-native PDFs or reliably OCR’ed ones,GROBIDremains the de facto choice. It excels at extracting structured bibliographic information with high accuracy."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Mistral OCR API",
+        "paragraphs": [
+          "Mistral OCRoffers an end-to-end cloud API that preserves both text and layout, making it easier to isolate specific sections like References. It shows the most promise currently, though it requires post-processing."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Azure Document Intelligence API",
+        "paragraphs": [
+          "For enterprise users already in the Microsoft ecosystem,Azure Document Intelligenceprovides excellent raw OCR with enterprise SLAs. May require custom model training or post-processing to match GROBID’s reference extraction capabilities."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Other libraries",
+        "paragraphs": [
+          "Doclingis IBM’s document understanding library that supports PDF conversion. It can be challenging to install, particularly on Windows and some Linux distributions. Offers advanced document understanding capabilities beyond simple text extraction.",
+          "MegaParsetakes a comprehensive approach using LibreOffice, Pandoc, Tesseract OCR, and other tools. It has Robust handling of different document types but requires an OpenAI API key for some features. Good for complex documents but has significant dependencies."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Comparison of PDF-to-Markdown Tools",
+        "paragraphs": [
+          "How to pick:",
+          "The optimal approach depends on your specific requirements regarding accuracy, structure preservation, and the intended use of the extracted content."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Need LLM-ready content?PyMuPDF4LLM is specifically designed for this",
+          "Working with multiple document formats?Markitdown handles diverse inputs",
+          "Extracting academic references?GROBID remains the standard",
+          "Building a production pipeline?Unstructured offers the best integration options",
+          "Handling complex layouts?Consider commercial OCR like Mistral or Azure Document Intelligence"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Tips for Optimal PDF Conversion",
+        "paragraphs": [],
+        "ordered_list": [
+          "Pre-process PDFswhen possible:# Optimize a PDF for text extraction firstocrmypdf--optimize3--skip-text input.pdf optimized.pdfCopy to clipboardErrorCopied",
+          "Try multiple toolson the same document to compare results:",
+          "Handle scanned PDFsappropriately:# For scanned documents, run OCR firstocrmypdf --force-ocr input.pdf ocr_ready.pdfPYTHONUTF8=1uvx markitdown ocr_ready.pdf>markitdown.mdCopy to clipboardErrorCopied",
+          "Consider post-processingfor better results:# Simple post-processing examplesed-i's/\\([A-Z]\\)\\./\\1\\.\\n/g'output.md# Add line breaks after sentencesCopy to clipboardErrorCopied"
+        ],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../prompt-engineering",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Prompt Engineering",
+        "paragraphs": [
+          "Prompt engineering is the process of crafting effective prompts for large language models (LLMs).",
+          "One of the best ways to approach prompt engineering is to think of LLMs as a smart colleague (with amnesia) who needs explicit instructions.",
+          "The most authoritative guides are from the LLM providers themselves:",
+          "Here are some best practices:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Anthropic",
+          "Google",
+          "OpenAI"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Use prompt optimizers",
+        "paragraphs": [
+          "They rewrite your prompt to improve it. Explore:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Anthropic Prompt Optimizer",
+          "OpenAI Prompt Generation",
+          "Google AI-powered prompt writing tools"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Be clear, direct, and detailed",
+        "paragraphs": [
+          "Be explicit and thorough. Include all necessary context, goals, and details so the model understands the full picture.",
+          "Anthropic|OpenAI|Google"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:Explain gravitation lensing.(Reason: Vague and lacks context or detail.)",
+          "GOOD:Explain the concept of gravitational lensing to a high school student who understands basic physics, including how it’s observed and its significance in astronomy.(Reason: Specifies the audience, scope, and focus.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Give examples",
+        "paragraphs": [
+          "Provide 2-3 relevant examples to guide the model on the style, structure, or format you expect. This helps the model produce outputs consistent with your desired style.",
+          "Anthropic|OpenAI|Google"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:Explain how to tie a bow tie.(Reason: No examples or reference points given.)",
+          "GOOD:Explain how to tie a bow tie. For example:To tie a shoelace, you cross the laces and pull them tight…To tie a necktie, you place it around the collar and loop it through…Now, apply a similar step-by-step style to describe how to tie a bow tie.(Reason: Provides clear examples and a pattern to follow.)",
+          "To tie a shoelace, you cross the laces and pull them tight…",
+          "To tie a necktie, you place it around the collar and loop it through…"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Think step by step",
+        "paragraphs": [
+          "Instruct the model to reason through the problem step by step. This leads to more logical, well-structured answers.",
+          "Anthropic|OpenAI|Google"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:Given this transcript, is the customer satisfied?(Reason: No prompt for structured reasoning.)",
+          "GOOD:Given this transcript, is the customer satisfied? Think step by step.(Reason: Directly instructs the model to break down reasoning into steps.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Assign a role",
+        "paragraphs": [
+          "Specify a role or persona for the model. This provides context and helps tailor the response style.",
+          "Anthropic|OpenAI|Google"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:Explain how to fix a software bug.(Reason: No role or perspective given.)",
+          "GOOD:You are a seasoned software engineer. Explain how to fix a software bug in legacy code, including the debugging and testing process.(Reason: Assigns a clear, knowledgeable persona, guiding the style and depth.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Use XML to structure your prompt",
+        "paragraphs": [
+          "Use XML tags to separate different parts of the prompt clearly. This helps the model understand structure and requirements.",
+          "Anthropic|OpenAI|Google"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:Here’s what I want: Provide a summary and then an example.(Reason: Unstructured, no clear separation of tasks.)",
+          "GOOD:<instructions>Provide a summary of the concept of machine learning.</instructions><example>Then provide a simple, concrete example of a machine learning application (e.g., an email spam filter).</example>Copy to clipboardErrorCopied(Reason: Uses XML tags to clearly distinguish instructions from examples.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Use Markdown to format your output",
+        "paragraphs": [
+          "Encourage the model to use Markdown for headings, lists, code blocks, and other formatting features to produce structured, easily readable answers."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:Give me the steps in plain text.(Reason: No specific formatting instructions, less readable.)",
+          "GOOD:Provide the steps in a markdown-formatted list with ### headings for each section and numbered bullet points.(Reason: Directly instructs to use Markdown formatting, making output more structured and clear.)",
+          "BAD:Correct the spelling and show the corrections.(Reason: No specific formatting instructions)",
+          "GOOD:Correct the spelling, showing <ins>additions</ins> and <del>deletions</del>.(Reason: Directly instructs to use HTML formatting, making output more structured and clear.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Use JSON for machine-readable output",
+        "paragraphs": [
+          "When you need structured data, ask for a JSON-formatted response. This ensures the output is machine-readable and organized.",
+          "Note: Always useJSON schemaif possible.JSON schemais a way to describe the structure of JSON data. An easy way to get the JSON schema is to give ChatGPT sample output and ask it to generate the schema."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:Just list the items.(Reason: Unstructured plain text makes parsing harder.)",
+          "GOOD:Organize as an array of objects in a JSON format, like this:```json[{\"name\":\"Item 1\",\"description\":\"Description of Item 1\"},{\"name\":\"Item 2\",\"description\":\"Description of Item 2\"},{\"name\":\"Item 3\",\"description\":\"Description of Item 3\"}]```Copy to clipboardErrorCopied(Reason: Instructing JSON format ensures structured, machine-readable output.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Prefer Yes/No answers",
+        "paragraphs": [
+          "Convert rating or percentage questions into Yes/No queries. LLMs handle binary choices better than numeric scales."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:On a scale of 1-10, how confident are you that this method works?(Reason: Asks for a numeric rating, which can be imprecise.)",
+          "GOOD:Is this method likely to work as intended? Please give a reasoning and then answer Yes or No.(Reason: A binary question simplifies the response and clarifies what’s being asked.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Ask for reason first, then the answer",
+        "paragraphs": [
+          "Instruct the model to provide its reasoning stepsbeforestating the final answer. This makes it less likely to justify itself and more likely to think deeper, leading to more accurate results."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:What is the best route to take?(Reason: Direct question without prompting reasoning steps first.)",
+          "GOOD:First, explain your reasoning step by step for how you determine the best route. Then, after you’ve reasoned it out, state your final recommendation for the best route.(Reason: Forces the model to show its reasoning process before giving the final answer.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Use proper spelling and grammar",
+        "paragraphs": [
+          "A well-written, grammatically correct prompt clarifies expectations. Poorly structured prompts can confuse the model."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "BAD:xplin wht the weirless netork do? make shur to giv me a anser??(Reason: Poor spelling and unclear instructions.)",
+          "GOOD:Explain what a wireless network does. Please provide a detailed, step-by-step explanation.(Reason: Proper spelling and clarity lead to a more coherent response.)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Video Tutorials",
+        "paragraphs": [
+          "WatchPrompt Engineering Tutorial – Master ChatGPT and LLM Responses (41 min). It covers:",
+          ""
+        ],
+        "ordered_list": [
+          "Basics ofAI and large language models.",
+          "How to write clear and detailed prompts to improve answers.",
+          "Tips for creating interactive and personalized AI responses.",
+          "Advanced topics likeAI mistakes(hallucinations) andtext embeddings(how AI understands words).",
+          "Fun examples, like making AI write poems or correct grammar."
+        ],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../geospatial-analysis-with-qgis",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Geospatial Analysis with QGIS",
+        "paragraphs": [
+          "",
+          "You’ll learn how to use QGIS for geographic data processing, covering:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Shapefiles and KML Files: Create and manage shapefiles and KML files for storing and analyzing geographic information.",
+          "Downloading QGIS: Install QGIS on different operating systems and familiarize yourself with its interface.",
+          "Geospatial Data: Access and utilize shapefiles from sources like Diva-GIS and integrate them into QGIS projects.",
+          "Creating Custom Shapefiles: Learn how to create custom shapefiles when existing ones are unavailable, including creating a shapefile for South Sudan.",
+          "Editing and Visualization: Use QGIS tools to edit shapefiles, add attributes, and visualize geographic data with various styling and labeling options.",
+          "Exporting Data: Export shapefiles or KML files for use in other applications, such as Google Earth.",
+          "QGIS Project",
+          "Shapefile Data"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../narratives-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Narratives with Excel",
+        "paragraphs": [
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Sample Excel"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../scraping-with-google-sheets",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Scraping with Google Sheets",
+        "paragraphs": [
+          "",
+          "You’ll learn how toimport tables on the web using Google Sheets’s=IMPORTHTML()formula, covering:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Import HTML Formula: Use =IMPORTHTML(URL, “query”, index) to fetch tables or lists from a web page.",
+          "Granting Access: Allow access for formulas to fetch data from external sources.",
+          "Checking Imported Data: Verify if the imported table matches the data on the web page.",
+          "Handling Errors: Understand common issues and how to resolve them.",
+          "Sorting Data: Copy imported data as values and sort it within Google Sheets.",
+          "Freezing Rows: Use frozen rows to maintain headers while sorting.",
+          "Live Formulas: Learn how web data updates automatically when the source changes.",
+          "Other Import Functions: IMPORTXML, IMPORTFEED, IMPORTRANGE, and IMPORTDATA for advanced data fetching options.",
+          "Google sheet used in the video",
+          "IMPORTHTML()",
+          "IMPORTXML()",
+          "Demographics of India",
+          "List of highest grossing Indian films"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../fastapi",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Web Framework: FastAPI",
+        "paragraphs": [
+          "FastAPIis a modern Python web framework for building APIs with automatic interactive documentation. It’s fast, easy to use, and designed for building production-ready REST APIs.",
+          "Here’s a minimal FastAPI app,app.py:",
+          "Run this withuv run app.py.",
+          "Tools:",
+          "Watch this FastAPI Course for Beginners (64 min):",
+          ""
+        ],
+        "ordered_list": [
+          "Handle errors by raising HTTPExceptionfromfastapiimportHTTPExceptionasyncdefget_item(item_id:int):ifnotvalid_item(item_id):raiseHTTPException(status_code=404,detail=f\"Item{item_id}not found\")Copy to clipboardErrorCopied",
+          "Use middleware for loggingfromfastapiimportRequestimporttime@app.middleware(\"http\")asyncdefadd_timing(request:Request,call_next):start=time.time()response=awaitcall_next(request)response.headers[\"X-Process-Time\"]=str(time.time()-start)returnresponseCopy to clipboardErrorCopied"
+        ],
+        "unordered_list": [
+          "FastAPI CLI: Project scaffolding",
+          "Pydantic: Data validation",
+          "SQLModel: SQL databases",
+          "FastAPI Users: Authentication"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../splitting-text-in-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Splitting Text in Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn how to transform a single-column data set into multiple, organized columns based on specific delimiters using the “Text to Columns” feature.",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "US Senate Legislation - Votes"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../profiling-data-with-python",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Profile Data with Python",
+        "paragraphs": [
+          "",
+          "This session covers the use of thepandas_profilinglibrary for generating comprehensive data reports in Python:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Library Installation and Import: Learn how to install and import the pandas_profiling library.",
+          "Profile Report Generation: Generate an HTML report with a single line of code using ProfileReport.",
+          "Descriptive Statistics: View detailed descriptive statistics such as variance, standard deviation, and kurtosis.",
+          "Outlier Detection: Identify and analyze outliers within the dataset.",
+          "Correlation Analysis: Understand how variables are correlated with each other using visual representations.",
+          "Handling Missing Values: Get insights on missing data and decide on imputation or removal strategies.",
+          "Initial Data Insights: Use the report to gather early warnings and insights before starting the data cleaning and modeling process.",
+          "Jupyter Notebook",
+          "Pandas Profiling output",
+          "Learn about thepandas_profilingpackage.Video",
+          "Learn about thegoogle.colabpackage"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../geospatial-analysis-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Geospatial Analysis with Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn how to create a data-driven story about coffee shop coverage in Manhattan, covering:",
+          "Here are links that explain how the video was made:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Data Collection: Collect and scrape data for coffee shop locations and census population from various sources.",
+          "Data Processing: Use Python libraries like geopandas for merging population data with geographic maps.",
+          "Map Creation: Generate coverage maps using tools like QGIS and Excel to visualize coffee shop distribution and population impact.",
+          "Visualization: Create physical, Power BI, and video visualizations to present the data effectively.",
+          "Storytelling: Craft a narrative around coffee shop competition, including strategic insights and potential market changes.",
+          "The Making of the Manhattan Coffee Kings",
+          "Shaping and merging maps",
+          "Visualizing data on 3D maps",
+          "Physical and digital 3D maps"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../llm-text-extraction",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "LLM Text Extraction",
+        "paragraphs": [
+          "JSONis one of the most widely used formats in the world for applications to exchange data.",
+          "",
+          "This video explains how to use LLMs to extract structure from unstructured data, covering:",
+          "Here are the links used in the video:",
+          "Structured Outputs is a feature that ensures the model will always generate responses that adhere to your suppliedJSON Schema, so you don’t need to worry about the model omitting a required key,\nor hallucinating an invalid enum value.",
+          "Here’s what theresponse_formattells OpenAI. The items marked ⚠️ are OpenAI specific requirements for the JSON schema."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "LLM for Data Extraction: Use OpenAI’s API to extract structured information from unstructured data like addresses.",
+          "JSON Schema: Define a JSON schema to ensure consistent and structured output from the LLM.",
+          "Prompt Engineering: Craft effective prompts to guide the LLM’s response and improve accuracy.",
+          "Data Cleaning: Use string functions and OpenAI’s API to clean and standardize data.",
+          "Data Analysis: Analyze extracted data using Pandas to gain insights.",
+          "LLM Limitations: Understand the limitations of LLMs, including potential errors and inconsistencies in output.",
+          "Production Use Cases: Explore real-world applications of LLMs for data extraction, such as customer service email analysis.",
+          "Jupyter Notebook",
+          "JSON Schema",
+          "Function calling",
+          "\"type\": \"json_schema\": We want you to generate a JSON response that follows this schema.",
+          "\"json_schema\":: We’re going to give you a schema.\"name\": \"math_response\": The schema is calledmath_response. (We can call it anything.)\"strict\": true: Follow the schema exactly.\"schema\":: Now, here’s the actual JSON schema.\"type\": \"object\": Return an object. ⚠️ The root objectmustbe an object.\"properties\":: The object has these properties:\"steps\":: There’s astepsproperty.\"type\": \"array\": It’s an array.\"items\":: Each item in the array…\"type\": \"object\": … is an object.\"properties\":: The object has these properties:\"explanation\":: There’s anexplanationproperty.\"type\": \"string\": … which is a string.\"output\":: There’s anoutputproperty.\"type\": \"string\": … which is a string, too.\"required\": [\"explanation\", \"output\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields int he object.\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false.\"final_answer\":: There’s afinal_answerproperty.\"type\": \"string\": … which is a string.\"required\": [\"steps\", \"final_answer\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields in the object.\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false.",
+          "\"name\": \"math_response\": The schema is calledmath_response. (We can call it anything.)",
+          "\"strict\": true: Follow the schema exactly.",
+          "\"schema\":: Now, here’s the actual JSON schema.\"type\": \"object\": Return an object. ⚠️ The root objectmustbe an object.\"properties\":: The object has these properties:\"steps\":: There’s astepsproperty.\"type\": \"array\": It’s an array.\"items\":: Each item in the array…\"type\": \"object\": … is an object.\"properties\":: The object has these properties:\"explanation\":: There’s anexplanationproperty.\"type\": \"string\": … which is a string.\"output\":: There’s anoutputproperty.\"type\": \"string\": … which is a string, too.\"required\": [\"explanation\", \"output\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields int he object.\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false.\"final_answer\":: There’s afinal_answerproperty.\"type\": \"string\": … which is a string.\"required\": [\"steps\", \"final_answer\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields in the object.\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false.",
+          "\"type\": \"object\": Return an object. ⚠️ The root objectmustbe an object.",
+          "\"properties\":: The object has these properties:\"steps\":: There’s astepsproperty.\"type\": \"array\": It’s an array.\"items\":: Each item in the array…\"type\": \"object\": … is an object.\"properties\":: The object has these properties:\"explanation\":: There’s anexplanationproperty.\"type\": \"string\": … which is a string.\"output\":: There’s anoutputproperty.\"type\": \"string\": … which is a string, too.\"required\": [\"explanation\", \"output\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields int he object.\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false.\"final_answer\":: There’s afinal_answerproperty.\"type\": \"string\": … which is a string.",
+          "\"steps\":: There’s astepsproperty.\"type\": \"array\": It’s an array.\"items\":: Each item in the array…\"type\": \"object\": … is an object.\"properties\":: The object has these properties:\"explanation\":: There’s anexplanationproperty.\"type\": \"string\": … which is a string.\"output\":: There’s anoutputproperty.\"type\": \"string\": … which is a string, too.\"required\": [\"explanation\", \"output\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields int he object.\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false.",
+          "\"type\": \"array\": It’s an array.",
+          "\"items\":: Each item in the array…\"type\": \"object\": … is an object.\"properties\":: The object has these properties:\"explanation\":: There’s anexplanationproperty.\"type\": \"string\": … which is a string.\"output\":: There’s anoutputproperty.\"type\": \"string\": … which is a string, too.\"required\": [\"explanation\", \"output\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields int he object.\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false.",
+          "\"type\": \"object\": … is an object.",
+          "\"properties\":: The object has these properties:\"explanation\":: There’s anexplanationproperty.\"type\": \"string\": … which is a string.\"output\":: There’s anoutputproperty.\"type\": \"string\": … which is a string, too.",
+          "\"explanation\":: There’s anexplanationproperty.\"type\": \"string\": … which is a string.",
+          "\"type\": \"string\": … which is a string.",
+          "\"output\":: There’s anoutputproperty.\"type\": \"string\": … which is a string, too.",
+          "\"type\": \"string\": … which is a string, too.",
+          "\"required\": [\"explanation\", \"output\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields int he object.",
+          "\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false.",
+          "\"final_answer\":: There’s afinal_answerproperty.\"type\": \"string\": … which is a string.",
+          "\"type\": \"string\": … which is a string.",
+          "\"required\": [\"steps\", \"final_answer\"]: ⚠️ Youmustadd\"required\": [...]and includeallfields in the object.",
+          "\"additionalProperties\": false: ⚠️ OpenAI requires every object to have\"additionalProperties\": false."
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../npx",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "JavaScript tools: npx",
+        "paragraphs": [
+          "npxis a command-line tool that comes with npm (Node Package Manager) and allows you to execute npm package binaries and run one-off commands without installing them globally. It’s essential for modern JavaScript development and data science workflows.",
+          "For data scientists, npx is useful when:",
+          "Here are common npx commands:",
+          "Watch this introduction to npx (6 min):",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Running JavaScript-based data visualization tools",
+          "Converting notebooks and documents",
+          "Testing and formatting code",
+          "Running development servers"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../visualizing-animated-data-with-flourish",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Visualizing Animated Data with Flourish",
+        "paragraphs": [
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../data-analysis-with-sql",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Analysis with SQL",
+        "paragraphs": [
+          "",
+          "You’ll learn how to perform data analysis using SQL (via Python), covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Database Connection: How to connect to a MySQL database using SQLAlchemy and Pandas.",
+          "SQL Queries: Execute SQL queries directly from a Python environment to retrieve and analyze data.",
+          "Counting Rows: Use SQL to count the number of rows in a table.",
+          "User Activity Analysis: Query and identify top users by post count.",
+          "Post Concentration: Determine if a small percentage of users contribute the majority of posts using SQL aggregation.",
+          "Correlation Calculation: Calculate the Pearson correlation coefficient between user attributes such as age and reputation.",
+          "Regression Analysis: Compute the regression slope to understand the relationship between views and reputation.",
+          "Handling Large Data: Perform calculations on large datasets by fetching aggregated values from the database rather than entire datasets.",
+          "Statistical Analysis in SQL: Use SQL as a tool for statistical analysis, demonstrating its power beyond simple data retrieval.",
+          "Leveraging AI: Use ChatGPT to generate SQL queries and Python code, enhancing productivity and accuracy.",
+          "Data analysis with databases - Notebook",
+          "SQLZoohas simple interactive tutorials to learn SQL",
+          "Stats databasethat has an anonymized dump ofstats.stackexchange.com",
+          "Pandasread_sql",
+          "SQLAlchemy docs"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../devtools",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Browser: DevTools",
+        "paragraphs": [
+          "Chrome DevToolsis the de facto standard for web development and data analysis in the browser.\nYou’ll use this a lot when debugging and inspecting web pages.",
+          "Here are the key features you’ll use most:",
+          "Videos from Chrome Developers (37 min total):"
+        ],
+        "ordered_list": [
+          "Elements PanelInspect and modify HTML/CSS in real-timeCopy CSS selectors for web scrapingDebug layout issues with the Box Model// Copy selector in Consolecopy($0);// Copies selector of selected elementCopy to clipboardErrorCopied",
+          "Inspect and modify HTML/CSS in real-time",
+          "Copy CSS selectors for web scraping",
+          "Debug layout issues with the Box Model",
+          "Console PanelJavaScript REPL environmentLog and debug dataCommon console methods:console.table(data);// Display data in table formatconsole.group(\"Name\");// Group related logsconsole.time(\"Label\");// Measure execution timeCopy to clipboardErrorCopied",
+          "JavaScript REPL environment",
+          "Log and debug data",
+          "Common console methods:",
+          "Network PanelMonitor API requests and responsesSimulate slow connectionsRight-click on a request and select “Copy as fetch” to get the request.",
+          "Monitor API requests and responses",
+          "Simulate slow connections",
+          "Right-click on a request and select “Copy as fetch” to get the request.",
+          "Essential Keyboard ShortcutsCtrl+Shift+I(Windows) /Cmd+Opt+I(Mac): Open DevToolsCtrl+Shift+C: Select element to inspectCtrl+L: Clear console$0: Reference currently selected element$$('selector'): Query selector all (returns array)",
+          "Ctrl+Shift+I(Windows) /Cmd+Opt+I(Mac): Open DevTools",
+          "Ctrl+Shift+C: Select element to inspect",
+          "Ctrl+L: Clear console",
+          "$0: Reference currently selected element",
+          "$$('selector'): Query selector all (returns array)"
+        ],
+        "unordered_list": [
+          "Fun & powerful: Intro to Chrome DevTools(5 min)",
+          "Different ways to open Chrome DevTools(5 min)",
+          "Faster DevTools navigation with shortcuts and settings(3 min)",
+          "How to log messages in the Console(6 min)",
+          "How to speed up your workflow with Console shortcuts(6 min)",
+          "HTML vs DOM? Let’s debug them(5 min)",
+          "Caching demystified: Inspect, clear, and disable caches(7 min)",
+          "Console message logging(6 min)",
+          "Console workflow shortcuts(6 min)",
+          "HTML vs DOM debugging(5 min)",
+          "Cache inspection and management(7 min)"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../marimo",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Interactive Notebooks: Marimo",
+        "paragraphs": [
+          "Marimois a new take on notebooks that solves some headaches of Jupyter. It runs cells reactively - when you change one cell, all dependent cells update automatically, just like a spreadsheet.",
+          "Marimo’s cells can’t be run out of order. This makes Marimo more reproducible and easier to debug, but requires a mental shift from the Jupyter/Colab way of working.",
+          "It also runs Python directly in the browser and is quite interactive.Browse the gallery of examples. With a wide variety of interactive widgets, It’s growing popular as an alternative to Streamlit for building data science web apps.",
+          "Common Operations:",
+          "Best Practices:",
+          ""
+        ],
+        "ordered_list": [
+          "Cell DependenciesKeep cells focused and atomicUse clear variable namesDocument data flow between cells",
+          "Keep cells focused and atomic",
+          "Use clear variable names",
+          "Document data flow between cells",
+          "Interactive Elements# Add interactive widgetsslider=mo.ui.slider(1,100)# Create dynamic Markdownmo.md(f\"{slider}{\"🟢\" * slider.value}\")Copy to clipboardErrorCopied",
+          "Version ControlKeep notebooks are Python filesUse Git to track changesPublish onmarimo.appfor collaboration",
+          "Keep notebooks are Python files",
+          "Use Git to track changes",
+          "Publish onmarimo.appfor collaboration"
+        ],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../tds-gpt-reviewer",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Content creation prompts",
+        "paragraphs": [
+          "In addition, here are a few prompts used to create the content:"
+        ],
+        "ordered_list": [
+          "Video summaries. Transcribe the video viaYouTube Transcriptor Whisper. Then:Summarize this video transcript crisply for a high school student."
+        ],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../visualizing-forecasts-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Visualizing Forecasts with Excel",
+        "paragraphs": [
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Excel File"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../llamafile",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Local LLMs: Llamafile",
+        "paragraphs": [
+          "You would have heard of Large Language Models (LLMs) like GPT-4, Claude, and Llama. Some of these models are available for free, but most of them are not.",
+          "An easy way to run LLMs locally is Mozilla’sLlamafile. It’s a single executable file that works on Windows, Mac, and Linux. No installation or configuration needed - just download and run.",
+          "Watch this Llamafile Tutorial (6 min):",
+          "",
+          "Here’s how to get started",
+          "You might see a message like this:",
+          "You can now chat with the model. Type/exitor pressCtrl+Cto stop.",
+          "You can also visithttp://127.0.0.1:8080/in your browser to chat with the model.",
+          "LlamaFile exposes an OpenAI compatible API. Here’s how to use it in Python:",
+          "Tools:"
+        ],
+        "ordered_list": [
+          "DownloadLlama-3.2-1B-Instruct.Q6_K.llamafile(1.11 GB).",
+          "From the command prompt or terminal, runLlama-3.2-1B-Instruct.Q6_K.llamafile.",
+          "Optional: For GPU acceleration, useLlama-3.2-1B-Instruct.Q6_K.llamafile --n-gpu-layers 35. (Increase or decrease the number of layers based on your GPU VRAM.)"
+        ],
+        "unordered_list": [
+          "OpenAI API compatibility: Use existing OpenAI code",
+          "Creating your own llamafiles: Control output format"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../git",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Version Control: Git, GitHub",
+        "paragraphs": [
+          "Gitis the de facto standard for version control of software (and sometimes, data as well). It’s a system that keeps track of changes you make to files and folders. It allows you to revert to a previous state, compare changes, etc. It’s a central tool in any developer’s workflow.",
+          "GitHubis the most popular hosting service for Git repositories. It’s a website that shows your code, allows you to collaborate with others, and provides many useful tools for developers.",
+          "Watch these introductory videos to learn the basics of Git and GitHub (98 min):",
+          "",
+          "",
+          "Essential Git Commands:",
+          "Best Practices:",
+          "Essential Tools"
+        ],
+        "ordered_list": [
+          "Commit Messages# Good commit message formattype(scope): summary\n\nDetailed description of changes.# Examplesfeat(api):adduser authentication\nfix(db): handle null valuesinqueryCopy to clipboardErrorCopied",
+          "Branching Strategymain: Production codedevelop: Integration branchfeature/*: New featureshotfix/*: Emergency fixes",
+          "main: Production code",
+          "develop: Integration branch",
+          "feature/*: New features",
+          "hotfix/*: Emergency fixes",
+          "Code ReviewKeep PRs small (<400 lines)Use draft PRs for WIPReview your own code firstRespond to all comments",
+          "Keep PRs small (<400 lines)",
+          "Use draft PRs for WIP",
+          "Review your own code first",
+          "Respond to all comments"
+        ],
+        "unordered_list": [
+          "GitHub Desktop: GUI client",
+          "GitLens: VS Code extension",
+          "gh: GitHub CLI",
+          "pre-commit: Git hooks"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../topic-modeling",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Topic Modeling",
+        "paragraphs": [
+          "",
+          "You’ll learn to use text embeddings to find text similarity and use that to create topics automatically from text, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Embeddings: How large language models convert text into numerical representations.",
+          "Similarity Measurement: Understanding how similar embeddings indicate similar meanings.",
+          "Embedding Visualization: Using tools like Tensorflow Projector to visualize embedding spaces.",
+          "Embedding Applications: Using embeddings for tasks like classification and clustering.",
+          "OpenAI Embeddings: Using OpenAI’s API to generate embeddings for text.",
+          "Model Comparison: Exploring different embedding models and their strengths and weaknesses.",
+          "Cosine Similarity: Calculating cosine similarity between embeddings for more reliable similarity measures.",
+          "Embedding Cost: Understanding the cost of generating embeddings using OpenAI’s API.",
+          "Embedding Range: Understanding the range of values in embeddings and their significance.",
+          "Jupyter Notebook",
+          "Tensorflow projector",
+          "Embeddings guide",
+          "Embeddings reference",
+          "Clustering on scikit-learn",
+          "Massive text embedding leaderboard (MTEB)",
+          "gte-large-en-v1.5embedding model",
+          "Embeddings similarity threshold"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../uv",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Python tools: uv",
+        "paragraphs": [
+          "Install uv.",
+          "uvis a fast Python package and project manager that’s becoming the standard for running Python scripts. It replaces tools like pip, conda, pipx, poetry, pyenv, twine, and virtualenv into one, enabling:",
+          "Here are some commonly used commands:",
+          "Here are some useful tools you can run withuvxwithout installation:",
+          "uv usesinline script metadatafor dependencies.\nThe eliminates the need forrequirements.txtor virtual environments. For example:",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Python Version Management: uv installs and managesmultiplePython versions, allowing developers to specify and switch between versions seamlessly.",
+          "Virtual Environment Handling: It automates the creation and management of virtual environments, ensuring isolated and consistent development spaces for different projects.",
+          "Dependency Management: With support for the pyproject.toml format, uv enables precise specification of project dependencies. It maintains a universal lockfile, uv.lock, to ensure reproducible installations across different systems.",
+          "Project Execution: Theuv runcommand allows for the execution of scripts and applications within the managed environment, streamlining development workflows."
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../retrieval-augmented-generation",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Retrieval Augmented Generation",
+        "paragraphs": [
+          "The video is not available yet. Please review the notebook, which is self-explanatory. #TODO",
+          "You will learn to implement Retrieval Augmented Generation (RAG) to enhance language models’ responses by incorporating relevant context, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "LLM Context Limitations: Understanding the constraints of context windows in large language models.",
+          "Retrieval Augmented Generation: The technique of retrieving and using relevant documents to enhance model responses.",
+          "Embeddings: How to convert text into numerical representations that are used for similarity calculations.",
+          "Similarity Search: Finding the most relevant documents by calculating cosine similarity between embeddings.",
+          "OpenAI API Integration: Using the OpenAI API to generate responses based on the most relevant documents.",
+          "Tourist Recommendation Bot: Building a bot that recommends tourist attractions based on user interests using embeddings.",
+          "Next Steps for Implementation: Insights into scaling the solution with a vector database, re-rankers, and improved prompts for better accuracy and efficiency.",
+          "Jupyter Notebook",
+          "gte-large-en-v1.5embedding model",
+          "Awesome vector database"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../markdown",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Documentation: Markdown",
+        "paragraphs": [
+          "Markdown is a lightweight markup language for creating formatted text using a plain-text editor. It’s the standard for documentation in software projects and data science notebooks.",
+          "Watch this introduction to Markdown (19 min):",
+          "",
+          "Common Markdown syntax:",
+          "There is also aGitHub Flavored Markdownstandard which is popular. This includes extensions like:",
+          "Tools for working with Markdown:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "markdown2: Python library to convert Markdown to HTML",
+          "markdownlint: Linting",
+          "Markdown All in One: VS Code extension",
+          "pandoc: Convert between formats"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/README",
+    "blocks": [
+      {
+        "type": "details",
+        "summary": "This course exposes you to real-life tools",
+        "paragraphs": [
+          "Courses teach you programming and data science. From statistics to algorithms to writing Python code to building models.",
+          "But one critical subject that’s rarely covered is: what tools should I pick and how do I become proficient in them?",
+          "These tools might not help your CV much. But they will make things easier in real life. For example, at school:",
+          "“We lost the documentation on quantum mechanics. You’ll have to decode the regexes yourself.”",
+          "In this course, we’ve curated the most important tools people use in data science.",
+          "Learn them well. You’ll be a lot more productive than your peers."
+        ]
+      },
+      {
+        "type": "details",
+        "summary": "This course is quite hard",
+        "paragraphs": [
+          "Here’s students’ feedback:",
+          "Take Graded assignment 1 to check if you’re ready for this course. Please drop this course (do it in a later term) if you score low. It’ll be too tough for you now."
+        ]
+      },
+      {
+        "type": "details",
+        "summary": "But it's probably worth it.",
+        "paragraphs": [
+          "Here’s students’ feedback:"
+        ]
+      },
+      {
+        "type": "details",
+        "summary": "Programming skills are a pre-requisite",
+        "paragraphs": [
+          "You need a good understanding of Python, JavaScript, HTML, HTTP, Excel, and data science concepts.",
+          "But isn’t this a data science course? Yes. Good data scientists are good programmers. Data scientists don’t just analyze data or train models. They source data, clean it, transform it, visualize it, deploy it, and automate the whole process.",
+          "In some organizations, some of this work is done by others (e.g. data engineers, IT teams, etc.). But wherever you are, some of the time, you need to write code for all of this yourself.",
+          "This course teaches you tools that will make you more productive. But you do need programming to learn many of them."
+        ]
+      },
+      {
+        "type": "details",
+        "summary": "If you passed, don't enroll again",
+        "paragraphs": [
+          "The course is public, so you can always audit it.",
+          "Also, registering again for the course does not improve marks much."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "We cover 7 modules in 12 weeks",
+        "paragraphs": [
+          "The content evolves with technology and feedback.\nTrack thecommit historyfor changes."
+        ],
+        "ordered_list": [
+          "Development Toolsand concepts tobuildmodels and apps.",
+          "Deployment Toolsand concepts topublishwhat you built.",
+          "Large Language Modelsthat make your work easier and your apps smarter.",
+          "Data Sourcingto get data from the web, files, and databases.",
+          "Data Preparationto clean up and convert the inputs to the right format.",
+          "Data Analysisto find surprising insights in the data.",
+          "Data Visualizationto communicate those insights as visual stories."
+        ],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Anyone can audit this course",
+        "paragraphs": [
+          "Everyone has access to:",
+          "You can solve these questions any time and check your answers before the submission dates.",
+          "Onlyenrolled studentscan participate inDiscourse, get project evaluations, take the final end-term, or get a certificate.",
+          "Those auditing can join theTDS 2025 May Google Groupfor announcements."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Course content athttps://tds.s-anand.net/",
+          "Evaluations"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Evaluations are mostly open Internet",
+        "paragraphs": [
+          "Tentative dates:",
+          "Updates:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "5 May 2025:GA1 submission date postponed from 11 May to 18 May 2025GA2 submission date postponed from 18 May to 25 May 2025GA3 submission datepreponedfrom 01 Jun to 25 May 2025 since there’s a break the week after",
+          "GA1 submission date postponed from 11 May to 18 May 2025",
+          "GA2 submission date postponed from 18 May to 25 May 2025",
+          "GA3 submission datepreponedfrom 01 Jun to 25 May 2025 since there’s a break the week after"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Notes",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "Graded Assignment 1checks course pre-requisites. Please drop this course (do it in a later term) if you score low. It’ll be too tough for you now.",
+          "Remote exams are open and hardYou can use the Internet, WhatsApp, ChatGPT, your notes, your friends, your pets…The RoE is especially hard. Read:What is the purpose of an impossible RoE exam?",
+          "You can use the Internet, WhatsApp, ChatGPT, your notes, your friends, your pets…",
+          "The RoE is especially hard. Read:What is the purpose of an impossible RoE exam?",
+          "Final exam is in-person and closed book. It tests your memory. It’s easy.",
+          "Projects test application. The projects test how well you apply what you learnt in a real-world context.",
+          "Bonus activities may be posted on Discourse. Seeprevious bonus activities",
+          "Evaluations are mostly automated. This course uses pre-computed (for objective) or LLMs (for subjective) evaluations.LLMs will evaluate you differently each time. Learn to prompt themrobustlyto get higher marks.",
+          "LLMs will evaluate you differently each time. Learn to prompt themrobustlyto get higher marks."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Constantly check communications",
+        "paragraphs": [
+          "Check these three links regularly to keep up with the course."
+        ],
+        "ordered_list": [
+          "Seek Notificationsfor Course Notifications. Log intoseek.onlinedegree.iitm.ac.inand click on the bell iconon the top right corner. Check notifications daily.",
+          "Your emailfor Course Announcements.SeekInbox are forwarded to your email. Check daily. Check spam folders too.",
+          "TDS Discourse: Faculty, instructors, and TAs will share updates and address queries here. Emailsupport@study.iitm.ac.incc:discourse-staff1@study.iitm.ac.inif you can’t access Discourse."
+        ],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "People who help you",
+        "paragraphs": [
+          "Theirjobis to help you. Trouble them for your slightest doubts!"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Faculty(who design the course)Anand S,root.node@gmail.com|@s.anand",
+          "Anand S,root.node@gmail.com|@s.anand",
+          "Instructors(who teach the course)Carlton D’Silva.22f3001919@ds.study.iitm.ac.in|@carltonPrasanna S,prasanna@study.iitm.ac.in|@iamprasna",
+          "Carlton D’Silva.22f3001919@ds.study.iitm.ac.in|@carlton",
+          "Prasanna S,prasanna@study.iitm.ac.in|@iamprasna",
+          "Teaching assistants(who help you with your doubts)Jivraj Singh,22f3002542@ds.study.iitm.ac.in|@Jivraj|LinkedIn ProfileSuchintika Sarkar,21f3002441@ds.study.iitm.ac.in|@21f3002441Hritik Roshan Maurya,22f3002460@ds.study.iitm.ac.in|@HritikRoshan_HRMSaransh Saini,22f1001123@ds.study.iitm.ac.in|@Saransh_Saini|LinkedIn ProfileVirtual TA(GPT Instructions)",
+          "Jivraj Singh,22f3002542@ds.study.iitm.ac.in|@Jivraj|LinkedIn Profile",
+          "Suchintika Sarkar,21f3002441@ds.study.iitm.ac.in|@21f3002441",
+          "Hritik Roshan Maurya,22f3002460@ds.study.iitm.ac.in|@HritikRoshan_HRM",
+          "Saransh Saini,22f1001123@ds.study.iitm.ac.in|@Saransh_Saini|LinkedIn Profile",
+          "Virtual TA(GPT Instructions)"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Course Links",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "TDS: Discourse- Ask questions, get help, and discuss with your peers.",
+          "IITM BS Degree Programme - Student Handbook",
+          "TDS: Public course page",
+          "TDS: Course files– Jupyter notebooks, datasets, etc."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "May 2025 Links",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "Grading Document - May 2025",
+          "TDS: Course page - May 2025– for students to access course content.",
+          "TDS: Announcement group - May 2025",
+          "TDS: Live Sessions"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Past Course Content",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "TDS: Course Content - Jan 2025",
+          "TDS: Live Sessions - Jan 2025– YouTube playlist",
+          "TDS: Course calendar - Jan 2025",
+          "Grading Document - Jan 2025."
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../css-selectors",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "CSS Selectors",
+        "paragraphs": [
+          "CSS selectors are patterns used to select and style HTML elements on a web page. They are fundamental to web development and data scraping, allowing you to precisely target elements for styling or extraction.",
+          "For data scientists, understanding CSS selectors is crucial when:",
+          "Watch this comprehensive introduction to CSS selectors (20 min):",
+          "",
+          "The Mozilla Developer Network (MDN) provides detailed documentation on the three main types of selectors:",
+          "Practice your CSS selector skills with this interactive tool:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Web scraping with tools like Beautiful Soup or Scrapy",
+          "Selecting elements for browser automation with Selenium",
+          "Styling data visualizations and web applications",
+          "Debugging website issues using browser DevTools",
+          "Basic CSS selectors: Learn about element (div), class (.container), ID (#header), and universal (*) selectors",
+          "Attribute selectors: Target elements based on their attributes or attribute values ([type=\"text\"])",
+          "Combinators: Use relationships between elements (div > p,div + p,div ~ p)",
+          "CSS Diner: A fun game that teaches CSS selectors through increasingly challenging levels"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../bash",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Terminal: Bash",
+        "paragraphs": [
+          "UNIX shells are the de facto standard in the data science world andBashis the most popular.\nThis is available by default on Mac and Linux.",
+          "On Windows, installGit BashorWSLto get a UNIX shell.",
+          "Watch this video to install WSL (12 min).",
+          "",
+          "Watch this video to understand the basics of Bash and UNIX shell commands (75 min).",
+          "",
+          "Essential Commands:",
+          "Bash Scripting Essentials:",
+          "Productivity Tips:"
+        ],
+        "ordered_list": [
+          "Command Historyhistory# Show command historyCtrl+R# Search history!!# Repeat last command!$# Last argumentCopy to clipboardErrorCopied",
+          "Directory Navigationpushddir# Push directory to stackpopd# Pop directory from stackcd-# Go to previous directoryCopy to clipboardErrorCopied",
+          "Job Controlcommand&# Run in backgroundCtrl+Z# Suspend processbg# Resume in backgroundfg# Resume in foregroundCopy to clipboardErrorCopied",
+          "Useful Aliases- typically added to~/.bashrcaliasll='ls -la'aliasgs='git status'aliasjupyter='jupyter notebook'aliasactivate='source venv/bin/activate'Copy to clipboardErrorCopied"
+        ],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../vision-models",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Vision Models",
+        "paragraphs": [
+          "",
+          "You’ll learn how to use LLMs to interpret images and extract useful information, covering:",
+          "Here are the links used in the video:",
+          "Here is an example of how to analyze an image using the OpenAI API.",
+          "Let’s break down the request:",
+          "You can send images in abase64 encoded format, too. For example:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Setting Up Vision Models: Integrate vision capabilities with LLMs using APIs like OpenAI’s Chat Completion.",
+          "Sending Image URLs for Analysis: Pass URLs or base64-encoded images to LLMs for processing.",
+          "Reading Image Responses: Get detailed textual descriptions of images, from scenic landscapes to specific objects like cricketers or bank statements.",
+          "Extracting Data from Images: Convert extracted image data to various formats like Markdown tables or JSON arrays.",
+          "Handling Model Hallucinations: Address inaccuracies in extraction results, understanding how different prompts can affect output quality.",
+          "Cost Management for Vision Models: Adjust detail settings (e.g., “detail: low”) to balance cost and output precision.",
+          "Jupyter Notebook",
+          "OpenAI Chat API Reference",
+          "OpenAI Vision Guide",
+          "Sample images used",
+          "curl https://api.openai.com/v1/chat/completions: The API endpoint for text generation.",
+          "-H \"Content-Type: application/json\": The content type of the request.",
+          "-H \"Authorization: Bearer $OPENAI_API_KEY\": The API key for authentication.",
+          "-d: The request body.\"model\": \"gpt-4o-mini\": The model to use for text generation.\"messages\":: The messages to send to the model.\"role\": \"user\": The role of the message.\"content\":: The content of the message.{\"type\": \"text\", \"text\": \"What is in this image?\"}: The text message.{\"type\": \"image_url\"}: The image message.\"detail\": \"low\": The detail level of the image.lowuses fewer tokens at lower detail.highuses more tokens for higher detail.\"image_url\": {\"url\": \"https://upload.wikimedia.org/wikipedia/commons/3/34/Correlation_coefficient.png\"}: The URL of the image.",
+          "\"model\": \"gpt-4o-mini\": The model to use for text generation.",
+          "\"messages\":: The messages to send to the model.\"role\": \"user\": The role of the message.\"content\":: The content of the message.{\"type\": \"text\", \"text\": \"What is in this image?\"}: The text message.{\"type\": \"image_url\"}: The image message.\"detail\": \"low\": The detail level of the image.lowuses fewer tokens at lower detail.highuses more tokens for higher detail.\"image_url\": {\"url\": \"https://upload.wikimedia.org/wikipedia/commons/3/34/Correlation_coefficient.png\"}: The URL of the image.",
+          "\"role\": \"user\": The role of the message.",
+          "\"content\":: The content of the message.{\"type\": \"text\", \"text\": \"What is in this image?\"}: The text message.{\"type\": \"image_url\"}: The image message.\"detail\": \"low\": The detail level of the image.lowuses fewer tokens at lower detail.highuses more tokens for higher detail.\"image_url\": {\"url\": \"https://upload.wikimedia.org/wikipedia/commons/3/34/Correlation_coefficient.png\"}: The URL of the image.",
+          "{\"type\": \"text\", \"text\": \"What is in this image?\"}: The text message.",
+          "{\"type\": \"image_url\"}: The image message.\"detail\": \"low\": The detail level of the image.lowuses fewer tokens at lower detail.highuses more tokens for higher detail.\"image_url\": {\"url\": \"https://upload.wikimedia.org/wikipedia/commons/3/34/Correlation_coefficient.png\"}: The URL of the image.",
+          "\"detail\": \"low\": The detail level of the image.lowuses fewer tokens at lower detail.highuses more tokens for higher detail.",
+          "\"image_url\": {\"url\": \"https://upload.wikimedia.org/wikipedia/commons/3/34/Correlation_coefficient.png\"}: The URL of the image."
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../data-transformation-in-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Transformation in Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn data transformation techniques in Excel, covering:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Calculating Ratios: Compute metro area to city area and metro population to city population ratios.",
+          "Using Pivot Tables: Create pivot tables to aggregate data and identify outliers.",
+          "Filtering Data: Apply filters in pivot tables to analyze specific subsets of data.",
+          "Counting Data Occurrences: Use pivot tables to count the frequency of specific entries.",
+          "Creating Charts: Generate charts from pivot table data to visualize distributions and outliers.",
+          "List of Largest Cities Excel file"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../google-charts",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Google Charts",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": [
+          "Google Chart 1: How To Create Chart Or Graph On HTML CSS Website | Google Charts Tutorial",
+          "Google Chart 2: Using Google Charts with googleVis"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../embeddings",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Embeddings: OpenAI and Local Models",
+        "paragraphs": [
+          "Embedding models convert text into a list of numbers. These are like a map of text in numerical form. Each number represents a feature, and similar texts will have numbers close to each other. So, if the numbers are similar, the text they represent mean something similar.",
+          "This is useful because text similarity is important in many common problems:",
+          "You can run embedding models locally or using an API. Local models are better for privacy and cost. APIs are better for scale and quality.",
+          "TheMassive Text Embedding Benchmark (MTEB)provides comprehensive comparisons of embedding models. These models are compared on several parameters, but here are some key ones to look at:"
+        ],
+        "ordered_list": [
+          "Search. Find similar documents to a query.",
+          "Classification. Classify text into categories.",
+          "Clustering. Group similar items into clusters.",
+          "Anomaly Detection. Find an unusual piece of text.",
+          "Rank. Higher ranked models have higher quality.",
+          "Memory Usage. Lower is better (for similar ranks). It costs less and is faster to run.",
+          "Embedding Dimensions. Lower is better. This is the number of numbers in the array. Smaller dimensions are cheaper to store.",
+          "Max Tokens. Higher is better. This is the number of input tokens (words) the model can take in asingleinput.",
+          "Look for higher scores in the columns for Classification, Clustering, Summarization, etc. based on your needs."
+        ],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Local Embeddings",
+        "paragraphs": [
+          "",
+          "Here’s a minimal example using a local embedding model:",
+          "Note theget_similarityfunction. It uses aCosine Similarityto calculate the similarity between two embeddings."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "OpenAI Embeddings",
+        "paragraphs": [
+          "For comparison, here’s how to use OpenAI’s API with direct HTTP calls. Replace theembedfunction in the earlier script:",
+          "NOTE: You need to set theOPENAI_API_KEYenvironment variable for this to work."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../narratives-with-comics",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Narratives with Comics",
+        "paragraphs": [
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Sample sheet"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../llm-sentiment-analysis",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "LLM Sentiment Analysis",
+        "paragraphs": [
+          "OpenAI’s APIprovides access to language models like GPT 4o, GPT 4o mini, etc.",
+          "For more details, read OpenAI’s guide for:",
+          "Start with this quick tutorial:",
+          "",
+          "Here’s a minimal example usingcurlto generate text:",
+          "Let’s break down the request:",
+          "",
+          "This video explains how to use large language models (LLMs) for sentiment analysis and classification, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Text Generation",
+          "Vision",
+          "Structured Outputs",
+          "curl https://api.openai.com/v1/chat/completions: The API endpoint for text generation.",
+          "-H \"Content-Type: application/json\": The content type of the request.",
+          "-H \"Authorization: Bearer $OPENAI_API_KEY\": The API key for authentication.",
+          "-d: The request body.\"model\": \"gpt-4o-mini\": The model to use for text generation.\"messages\":: The messages to send to the model.\"role\": \"user\": The role of the message.\"content\": \"Write a haiku about programming.\": The content of the message.",
+          "\"model\": \"gpt-4o-mini\": The model to use for text generation.",
+          "\"messages\":: The messages to send to the model.\"role\": \"user\": The role of the message.\"content\": \"Write a haiku about programming.\": The content of the message.",
+          "\"role\": \"user\": The role of the message.",
+          "\"content\": \"Write a haiku about programming.\": The content of the message.",
+          "Sentiment Analysis: Use OpenAI API to identify the sentiment of movie reviews as positive or negative.",
+          "Prompt Engineering: Learn how to craft effective prompts to get desired results from LLMs.",
+          "LLM Training: Understand how to train LLMs by providing examples and feedback.",
+          "OpenAI API Integration: Integrate OpenAI API into Python code to perform sentiment analysis.",
+          "Tokenization: Learn about tokenization and its impact on LLM input and cost.",
+          "Zero-Shot, One-Shot, and Multi-Shot Learning: Understand different approaches to using LLMs for learning.",
+          "Jupyter Notebook",
+          "Movie reviews dataset",
+          "OpenAI Playground",
+          "OpenAI Pricing",
+          "OpenAI Tokenizer",
+          "OpenAI API Reference",
+          "OpenAI Docs"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../visualizing-animated-data-with-powerpoint",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Visualizing Animated Data with PowerPoint",
+        "paragraphs": [
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "How to make a bar chart race in PowerPoint"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../vector-databases",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Vector Databases",
+        "paragraphs": [
+          "Vector databases are specialized databases that store and search vector embeddings efficiently.",
+          "Use vector databases when your embeddings exceed available memory or when you want it run fast at scale. (This is important. If your code runs fast and fits in memory, youDON’Tneed a vector database. You can can usenumpyfor these tasks.)",
+          "Vector databases are an evolving space.",
+          "The first generation of vector databases were written in C and typically used an algorithm calledHNSW(a way to approximately find the nearest neighbor). Some popular ones are:",
+          "In addition, most relational databases now support vector search. For example:",
+          "Take a look at thisVector DB Comparison.",
+          "Watch this Vector Database Tutorial (3 min):",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "chroma 19,637 ⭐ May 2025",
+          "qdrant 23,341 ⭐ May 2025",
+          "lancedb 6,327 ⭐ May 2025",
+          "faiss 34,684 ⭐ May 2025",
+          "milvus 34,476 ⭐ May 2025",
+          "weaviate 13,222 ⭐ May 2025",
+          "DuckDB: Supports vector search withvss.",
+          "SQLite: Supports vector search withsqlite-vec.",
+          "PostgreSQL: Supports vector search withpgvector."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "ChromaDB",
+        "paragraphs": [
+          "Here’s a minimal example using Chroma:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "LanceDB",
+        "paragraphs": [
+          "Here’s the same example using LanceDB:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "DuckDB",
+        "paragraphs": [
+          "Here’s the same example using DuckDB:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../project-1",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Background",
+        "paragraphs": [
+          "You have joined the operations team atDataWorks Solutions, a company that processes large volumes of log files, reports, and code artifacts to generate actionable insights for internal stakeholders. In order to improve operational efficiency and consistency, the company has mandated that routine tasks be automated and integrated into their Continuous Integration (CI) pipeline.",
+          "Due to the unpredictable nature of incoming data (from logs, ticket systems, source code, surveys, etc.) the team has decided to use a Large Language Model (LLM) as an intermediate transformer. In this role, the LLM will perform small, reasonably deterministic tasks.",
+          "Your assignment is to build an automation agent that accepts plain‑English tasks, carries out the required (multi‑step) process leveraging an LLM where required. The finished processing artifacts must be exactly verifiable against pre‑computed expected results."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Create an API",
+        "paragraphs": [
+          "Write an application that exposes an API with the following endpoints:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "POST/run?task=<task description>Executes a plain‑English task. The agent should parse the instruction, execute one or more internal steps (including taking help from an LLM), and produce the final output.If successful, return a HTTP 200 OK responseIf unsuccessful because of an error in the task, return a HTTP 400 Bad Request responseIf unsuccessful because of an error in the agent, return a HTTP 500 Internal Server Error responseThe body may optionally contain any useful information in each of these cases",
+          "If successful, return a HTTP 200 OK response",
+          "If unsuccessful because of an error in the task, return a HTTP 400 Bad Request response",
+          "If unsuccessful because of an error in the agent, return a HTTP 500 Internal Server Error response",
+          "The body may optionally contain any useful information in each of these cases",
+          "GET/read?path=<file path>Returns the content of the specified file. This is critical for verification of the exact output.If successful, return a HTTP 200 OK response with the file content as plain textIf the file does not exist, return a HTTP 404 Not Found response and an empty body",
+          "If successful, return a HTTP 200 OK response with the file content as plain text",
+          "If the file does not exist, return a HTTP 404 Not Found response and an empty body"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Phase A: Handle Operations Tasks",
+        "paragraphs": [
+          "The DataWorks operations team has identified these tasks that need to be automated:",
+          "Developers will call the/run?task=endpoint with a task descriptionsimilar(but certainly not identical) to the ones listed above.",
+          "For example,Task A3can be written in these ways - all are equivalent.",
+          "Your task is to build an agent that uses an LLM to parse the task description and execute the required steps."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "A1. Installuv(if required) and runhttps://raw.githubusercontent.com/sanand0/tools-in-data-science-public/tds-2025-01/project-1/datagen.pywith${user.email}as the only argument. (NOTE: This will generate data files required for the next tasks.)",
+          "A2. Format the contents of/data/format.mdusingprettier@3.4.2, updating the file in-place",
+          "A3. The file/data/dates.txtcontains a list of dates, one per line. Count the number of Wednesdays in the list, and write just the number to/data/dates-wednesdays.txt",
+          "A4. Sort the array of contacts in/data/contacts.jsonbylast_name, thenfirst_name, and write the result to/data/contacts-sorted.json",
+          "A5. Write the first line of the 10 most recent.logfile in/data/logs/to/data/logs-recent.txt, most recent first",
+          "A6. Find all Markdown (.md) files in/data/docs/. For each file, extract the first occurrance of each H1 (i.e. a line starting with#). Create an index file/data/docs/index.jsonthat maps each filename (without the/data/docs/prefix) to its title (e.g.{\"README.md\": \"Home\", \"path/to/large-language-models.md\": \"Large Language Models\", ...})",
+          "A7./data/email.txtcontains an email message. Pass the content to an LLM with instructions to extract the sender’s email address, and write just the email address to/data/email-sender.txt",
+          "A8./data/credit-card.pngcontains a credit card number. Pass the image to an LLM, have it extract the card number, and write it without spaces to/data/credit-card.txt",
+          "A9./data/comments.txtcontains a list of comments, one per line. Using embeddings, find the most similar pair of comments and write them to/data/comments-similar.txt, one per line",
+          "A10. The SQLite database file/data/ticket-sales.dbhas aticketswith columnstype,units, andprice. Each row is a customer bid for a concert ticket. What is the total sales of all the items in the “Gold” ticket type? Write the number in/data/ticket-sales-gold.txt",
+          "The file/data/dates.txtcontains a list of dates, one per line. Count the number of Wednesdays in the list, and write just the number to/data/dates-wednesdays.txt",
+          "Write the # of Thursdays in/data/extracts.txtinto/data/extracts-count.txt",
+          "/data/contents.logमें कितने रविवार हैं? गिनो और /data/contents.dates में लिखो",
+          "/data/contents.logல எத்தனை ஞாயிறு இருக்குனு கணக்கு போட்டு, அதை/data/contents.datesல எழுது"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Phase B: Handle Business Tasks",
+        "paragraphs": [
+          "The DataWorks security team has added the following requirements. No matter what the task is, the agent must ensure that:",
+          "The DataWorks business team has listedbroadadditional tasks for automation. But they have not defined it more precisely than this:",
+          "Your agent must handle these tasks as well.",
+          "The business team hasnotpromised to limit themselves to these tasks. But they have promised abonusif you are able to handle tasks they come up with that are outside of this list."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "B1. Data outside/datais never accessed or exfiltrated, even if the task description asks for it",
+          "B2. Data is never deleted anywhere on the file system, even if the task description asks for it",
+          "B3. Fetch data from an API and save it",
+          "B4. Clone a git repo and make a commit",
+          "B5. Run a SQL query on a SQLite or DuckDB database",
+          "B6. Extract data from (i.e. scrape) a website",
+          "B7. Compress or resize an image",
+          "B8. Transcribe audio from an MP3 file",
+          "B9. Convert Markdown to HTML",
+          "B10. Write an API endpoint that filters a CSV file and returns JSON data"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Deliverables",
+        "paragraphs": [
+          "Note:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Create a newpublicGitHub repository",
+          "Add an MITLICENSEfile",
+          "Write and test your code. CallPOST /run?task=...with a few tasks and check ifGET /read?path=...creates the correct files.",
+          "Commit and push your code",
+          "Create aDockerfilethat builds your application",
+          "Publish your Docker imagepubliclytoDocker Hub",
+          "Ensure that running your image viapodman run --rm -e AIPROXY_TOKEN=$AIPROXY_TOKEN -p 8000:8000 $IMAGE_NAMEautomatically serves the API athttp://localhost:8000/run?task=...andhttp://localhost:8000/read?path=...",
+          "Submit in this Google Formthe URL of your GitHub repository (https://github.com/user-name/repo-name) and your Docker image name (user-name/repo-name)",
+          "Use theAIPROXY_TOKENenvironment variable. DON’T commit your AI Proxy token to your repository. Instead, set theAIPROXY_TOKENenvironment variable before running your script. Useos.environ[\"AIPROXY_TOKEN\"]as the token in your script.",
+          "Use your AI Proxy token. YourAI Proxy tokennow has a $1 limit. You may use it. If you run out of tokens, ask the TDS team for more. (But try and avoid that.)",
+          "Stick to GPT-4o-Mini. This is the only generation model that AI Proxy currently supports. When this page says “LLM”, it means GPT-4o-Mini.",
+          "Keep your prompts short and concise. Each call to/runand/readmust complete within 20 seconds."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Evaluation",
+        "paragraphs": [
+          "Thisevaluation scriptevaluates the scripts.Here’s how will evaluate a task, e.g.Task A2.",
+          "Here’s how we will score the results.",
+          "Your score will be the sum of the marks above. No normalization, i.e. whether it’s 0/20 or 22/20, what you get is what you get.",
+          "This execution will be automated via:"
+        ],
+        "ordered_list": [
+          "CallPOST http://localhost:8000/run?task=Format+/data/format.md+with+prettier+3.4.2. Ensure that the respose is a HTTP 200.Note: The task may be worded differently. It may use a different prettier version. But the broad task is the same.",
+          "Note: The task may be worded differently. It may use a different prettier version. But the broad task is the same.",
+          "CallGET http://localhost:8000/read?path=/data/format.mdand get the revised file contents.",
+          "Verify that the response was formatted usingprettier@3.4.2."
+        ],
+        "unordered_list": [
+          "Pre-requisites: Your repositoryMUSTmeet the following criteria to be eligible for evaluationYour GitHub repository exists and is publicly accessibleYour GitHub repository has aLICENSEfile with the MIT licenseYour GitHub repository has a validDockerfileYour Docker image is publicly accessible and runs viapodman run -e AIPROXY_TOKEN=$AIPROXY_TOKEN -p 8000:8000 $IMAGE_NAMEYour Docker image uses the same Dockerfile as in your GitHub repository",
+          "Your GitHub repository exists and is publicly accessible",
+          "Your GitHub repository has aLICENSEfile with the MIT license",
+          "Your GitHub repository has a validDockerfile",
+          "Your Docker image is publicly accessible and runs viapodman run -e AIPROXY_TOKEN=$AIPROXY_TOKEN -p 8000:8000 $IMAGE_NAME",
+          "Your Docker image uses the same Dockerfile as in your GitHub repository",
+          "Phase A: 10 marks. 1 mark for each Phase A task that the agent handles correctly.We will run an evaluation script that will callhttps://localhost:8000/run?task=...on the task and callhttps://localhost:8000/read?path=...to verify the output",
+          "We will run an evaluation script that will callhttps://localhost:8000/run?task=...on the task and callhttps://localhost:8000/read?path=...to verify the output",
+          "Phase B: 10 marks. 1 mark for each Phase B task that the agent handles correctly.The evaluation script will callhttps://localhost:8000/run?task=...on the task and callhttps://localhost:8000/read?path=...to verify the output",
+          "The evaluation script will callhttps://localhost:8000/run?task=...on the task and callhttps://localhost:8000/read?path=...to verify the output",
+          "Bonus: Additional tasks. Wemaypass additional tasks beyond the list above. If your code handles them correctly, you get 1 bonus mark per task.",
+          "Bonus: Code diversity. You’re encouraged to copy code and learn from each other. We encourage diversity too. We will evaluate code similarity and give bonus marks for most unique responses. (That is, if your response is similar to a lot of others, you won’t get bonus marks.)",
+          "validate.pyto check the pre-requisites and generate the eligibleimages.txt",
+          "export AIPROXY_TOKEN=...to set the AI Proxy token",
+          "run.shto evaluate all submissions."
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../bbc-weather-api-with-python",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "BBC Weather location ID with Python",
+        "paragraphs": [
+          "",
+          "You’ll learn how to get the location ID of any city from the BBC Weather API – as a precursor to scraping weather data – covering:",
+          "To open the browser Developer Tools on Chrome, Edge, or Firefox, you can:",
+          "Here are links and references:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Understanding API Calls: Learn how backend API calls work when searching for a city on the BBC weather website.",
+          "Inspecting Web Interactions: Use the browser’s inspect element feature to track API calls and understand the network activity.",
+          "Extracting Location IDs: Identify and extract the location ID from the API response using Python.",
+          "Using Python Libraries: Import and use requests, json, and urlencode libraries to make API calls and process responses.",
+          "Constructing API URLs: Create structured API URLs dynamically with constant prefixes and query parameters using urlencode.",
+          "Building Functions: Develop a Python function that accepts a city name, constructs the API call, and returns the location ID.",
+          "Right-click on the page and select “Inspect” to open the developer tools",
+          "OR: PressF12",
+          "OR: PressCtrl+Shift+Ion Windows",
+          "OR: PressCmd+Opt+Ion Mac",
+          "BBC Location ID scraping - Notebook",
+          "BBC Weather - Palo Alto (location ID: 5380748)",
+          "BBC Locator Service - Los Angeles",
+          "Learn about therequestspackage. WatchPython Requests Tutorial: Request Web Pages, Download Images, POST Data, Read JSON, and More"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "BBC Weather data with Python",
+        "paragraphs": [
+          "",
+          "You’ll learn how to scrape the live weather data of a city from the BBC Weather API, covering:",
+          "Here are links and references:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Introduction to Web Scraping: Understand the basics of web scraping and its legality.",
+          "Libraries Overview: Learn the importance ofrequestsandBeautifulSoup.",
+          "Fetching HTML: Userequeststo fetch HTML content from a web page.",
+          "Parsing HTML: UtilizeBeautifulSoupto parse and navigate the HTML content.",
+          "Identifying Data: Inspect HTML elements to locate specific data (e.g., high and low temperatures).",
+          "Extracting Data: Extract relevant data usingBeautifulSoup‘sfind_all()function.",
+          "Data Cleanup: Clean extracted data to remove unwanted elements.",
+          "Post-Processing: Use regular expressions to split large strings into meaningful parts.",
+          "Data Structuring: Combine extracted data into a structured pandas DataFrame.",
+          "Handling Special Characters: Replace unwanted characters for better data manipulation.",
+          "Saving Data: Save the cleaned data into CSV and Excel formats.",
+          "BBC Weather scraping - Notebook",
+          "BBC Locator Service - Mumbai",
+          "BBC Weather - Mumbai (location ID: 1275339)",
+          "BBC Weather API - Mumbai (location ID: 1275339)",
+          "Learn about thejsonpackage. WatchPython Tutorial: Working with JSON Data using the json Module",
+          "Learn about theBeautifulSouppackage. WatchPython Tutorial: Web Scraping with BeautifulSoup and Requests",
+          "Learn about thepandaspackage. WatchPython Pandas Tutorial (Part 1): Getting Started with Data Analysis - Installation and Loading DataPython Pandas Tutorial (Part 2): DataFrame and Series Basics - Selecting Rows and Columns",
+          "Python Pandas Tutorial (Part 1): Getting Started with Data Analysis - Installation and Loading Data",
+          "Python Pandas Tutorial (Part 2): DataFrame and Series Basics - Selecting Rows and Columns",
+          "Learn about therepackage. WatchPython Tutorial: re Module - How to Write and Match Regular Expressions (Regex)",
+          "Learn about thedatetimepackage. WatchPython Tutorial: Datetime Module - How to work with Dates, Times, Timedeltas, and Timezones"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../data-analysis-with-python",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Analysis with Python",
+        "paragraphs": [
+          "",
+          "You’ll learn practical data analysis techniques in Python using Pandas, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Reading Parquet Files: Utilize Pandas to read Parquet file formats for efficient data handling.",
+          "Dataframe Inspection: Methods to preview and understand the structure of a dataset.",
+          "Pivot Tables: Creating and interpreting pivot tables to summarize data.",
+          "Percentage Calculations: Normalize pivot table values to percentages for better insights.",
+          "Correlation Analysis: Calculate and interpret correlation between variables, including significance testing.",
+          "Statistical Significance: Use statistical tests to determine the significance of observed correlations.",
+          "Datetime Handling: Extract and manipulate date and time information from datetime columns.",
+          "Data Visualization: Generate and customize heat maps to visualize data patterns effectively.",
+          "Leveraging AI: Use ChatGPT to generate and refine analytical code, enhancing productivity and accuracy.",
+          "Data analysis with Python - Notebook",
+          "Card transactions dataset (Parquet)",
+          "10 minutes to Pandas",
+          "Python Pandas tutorials"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../transforming-images",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Transforming Images",
+        "paragraphs": [],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Image Processing with PIL (Pillow)",
+        "paragraphs": [
+          "",
+          "Pillowis Python’s leading library for image processing, offering powerful tools for editing, analyzing, and generating images. It handles various formats (PNG, JPEG, GIF, etc.) and provides operations from basic resizing to complex filters.",
+          "Here’s a minimal example showing common operations:",
+          "Key features and techniques you’ll learn:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Image Loading and Saving: Handle various formats with automatic conversion",
+          "Basic Operations: Resize, rotate, crop, and flip images",
+          "Color Manipulation: Adjust brightness, contrast, and color balance",
+          "Filters and Effects: Apply blur, sharpen, and other visual effects",
+          "Drawing: Add text, shapes, and overlays to images",
+          "Batch Processing: Handle multiple images efficiently",
+          "Memory Management: Process large images without memory issues"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Basic Image Operations",
+        "paragraphs": [
+          "Common operations for resizing, cropping, and rotating images:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Color and Enhancement",
+        "paragraphs": [
+          "Adjust image appearance with built-in enhancement tools:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Filters and Effects",
+        "paragraphs": [
+          "Apply visual effects and filters to images:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Drawing and Text",
+        "paragraphs": [
+          "Add text, shapes, and overlays to images:"
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Memory-Efficient Processing",
+        "paragraphs": [
+          "Handle large images without loading them entirely into memory:",
+          "Practice with these resources:",
+          "Watch these tutorials for hands-on demonstrations:",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Pillow Documentation: Complete API reference",
+          "Python Image Processing Tutorial: In-depth guide",
+          "Sample Images Dataset: Test images for practice"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Image Processing with ImageMagick",
+        "paragraphs": [
+          "ImageMagickis a powerful command-line tool for image manipulation, offering features beyond what’s possible with Python libraries. It’s particularly useful for:",
+          "Basic Operations:",
+          "Common Data Science Tasks:",
+          "Batch Processing:",
+          "Advanced Features:",
+          "Watch this ImageMagick tutorial (16 min):",
+          "",
+          "Tools:",
+          "Tips:",
+          "Error Handling:",
+          "For Python integration:",
+          "Note: Always install ImageMagick before using the Wand Python binding."
+        ],
+        "ordered_list": [
+          "Use-stripto remove metadata and reduce file size",
+          "Monitor memory usage with-limit memory 1GB",
+          "Use-definefor format-specific options",
+          "Process in parallel with-parallel",
+          "Use-monitorto track progress"
+        ],
+        "unordered_list": [
+          "Batch processing large image collections",
+          "Complex image transformations",
+          "High-quality format conversion",
+          "Creating image thumbnails",
+          "Adding text and watermarks",
+          "Fred’s ImageMagick Scripts: Useful script collection",
+          "ImageMagick Online Studio: Visual command builder"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../visualizing-machine-learning",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Visualizing Machine Learning",
+        "paragraphs": [
+          "",
+          "You’ll learn about improving customer retention, understanding black box models, and using clustering for market segmentation:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Churn Reduction: Use decision trees to identify customers likely to leave.",
+          "Cost Efficiency: Compare customer acquisition vs. retention costs.",
+          "Model Improvement: Apply SVMs and neural networks for better accuracy.",
+          "Project Challenges: Understand issues with black box models in implementation.",
+          "K-Means Clustering: Segment markets using demographic data.",
+          "Data Visualization: Interpret clustering results using maps and charts.",
+          "Correlation Analysis: Identify relationships between currency exchange rates.",
+          "Tool Proficiency: Utilize Excel, Python, and JavaScript for analysis and communication.",
+          "Practical Application: Tailor marketing strategies based on cluster characteristics.",
+          "Visualizing-Forecast-Models.xlsx- the spreadsheet used in the video"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../data-visualization-with-seaborn",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Visualization with Seaborn",
+        "paragraphs": [
+          "Seabornis a data visualization library for Python. It’s based on Matplotlib but a bit easier to use, and a bit prettier.",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../llm-video-screen-scraping",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "LLM Video Screen-Scraping",
+        "paragraphs": [
+          "Video screen-scraping with LLMs is a powerful technique for extracting structured data from screen recordings. This approach works with any visible screen content and bypasses traditional web scraping limitations like authentication or anti-scraping measures.",
+          "",
+          "Key benefits:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "No setup cost or authentication handling",
+          "Works with any visible screen content",
+          "Full control over data exposure",
+          "Extremely cost-effective (< $0.001 per short video)",
+          "Bypasses anti-scraping measures",
+          "Handles varying formats and layouts"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Quick Start Example",
+        "paragraphs": [
+          "Here’s a basic workflow using Google’s AI Studio and Gemini:",
+          "Example prompt for extracting tabular data:"
+        ],
+        "ordered_list": [
+          "Record the ScreenUse QuickTime (Mac) or Windows Game Bar (Windows), Screen2Gif, or any tool of your choiceSelect specific screen area containing target dataRecord scrolling/clicking through contentKeep recordings short (30-60 seconds)",
+          "Use QuickTime (Mac) or Windows Game Bar (Windows), Screen2Gif, or any tool of your choice",
+          "Select specific screen area containing target data",
+          "Record scrolling/clicking through content",
+          "Keep recordings short (30-60 seconds)",
+          "Process with GeminiUpload toGoogle AI StudioSelect Gemini 1.5 Flash (cost-effective)Prompt for structured output (JSON/CSV)",
+          "Upload toGoogle AI Studio",
+          "Select Gemini 1.5 Flash (cost-effective)",
+          "Prompt for structured output (JSON/CSV)"
+        ],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Cost Calculation",
+        "paragraphs": [
+          "Gemini 1.5 Flash pricing (as of January 2025):"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "$0.075 per million tokens",
+          "Cost per frame ~ 250 tokens",
+          "Cost for 24 hours of video at 1 frame per second ~ $1.62!"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Best Practices",
+        "paragraphs": [],
+        "ordered_list": [
+          "Recording QualityFrame only relevant contentPause briefly on important dataMaintain consistent scroll speedUse high contrast display settings",
+          "Frame only relevant content",
+          "Pause briefly on important data",
+          "Maintain consistent scroll speed",
+          "Use high contrast display settings",
+          "Data ValidationAlways verify critical data manuallyUse spot-checking for large datasetsConsider running multiple passesLog and review any anomalies",
+          "Always verify critical data manually",
+          "Use spot-checking for large datasets",
+          "Consider running multiple passes",
+          "Log and review any anomalies",
+          "Error HandlingRequest data in simple formats (CSV/JSON)Include validation in promptsSplit long videos into segmentsHandle missing/partial data gracefully",
+          "Request data in simple formats (CSV/JSON)",
+          "Include validation in prompts",
+          "Split long videos into segments",
+          "Handle missing/partial data gracefully"
+        ],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Use Cases",
+        "paragraphs": [
+          "Tools:",
+          "References:"
+        ],
+        "ordered_list": [
+          "Data ExtractionEmail content aggregationDashboard metrics collectionProtected web contentLegacy system data",
+          "Email content aggregation",
+          "Dashboard metrics collection",
+          "Protected web content",
+          "Legacy system data",
+          "Data JournalismPublic records analysisTime-series data collectionInteractive visualization dataGovernment website scraping",
+          "Public records analysis",
+          "Time-series data collection",
+          "Interactive visualization data",
+          "Government website scraping",
+          "Business IntelligenceCompetitor pricing analysisMarket research dataInternal system migrationLegacy report conversion",
+          "Competitor pricing analysis",
+          "Market research data",
+          "Internal system migration",
+          "Legacy report conversion"
+        ],
+        "unordered_list": [
+          "Google AI Studio: Process videos with Gemini",
+          "QuickTime Player: Screen recording (Mac)",
+          "Screen2Gif: Screen recording (Windows)",
+          "OBS Studio: Advanced screen recording (cross-platform)",
+          "Simon Willison’s Video Scraping Tutorial",
+          "Gemini API Documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../data-preparation-in-the-shell",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Preparation in the Shell",
+        "paragraphs": [
+          "",
+          "You’ll learn how to use UNIX tools to process and clean data, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "curl(orwget) to fetch data from websites.",
+          "gzip(orxz) to compress and decompress files.",
+          "wcto count lines, words, and characters in text.",
+          "headandtailto get the start and end of files.",
+          "cutto extract specific columns from text.",
+          "uniqto de-duplicate lines.",
+          "sortto sort lines.",
+          "grepto filter lines containing specific text.",
+          "sedto search and replace text.",
+          "awkfor more complex text processing.",
+          "Data preparation in the shell - Notebook",
+          "Data Science at the Command Line"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../large-language-models",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "AI Proxy - Jan 2025",
+        "paragraphs": [
+          "For the Jan 2025 batch, we had created API keys for everyone with aniitm.ac.inemail to usegpt-4o-miniandtext-embedding-3-small. Your usage is limited to$1 per calendar monthfor this course. Don’t exceed that.",
+          "UseAI Proxyinstead of OpenAI. Specifically:"
+        ],
+        "ordered_list": [
+          "Replace your API tohttps://api.openai.com/...withhttps://aiproxy.sanand.workers.dev/openai/...",
+          "Replace theOPENAI_API_KEYwith theAIPROXY_TOKENthat someone will give you."
+        ],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../github-pages",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Static hosting: GitHub Pages",
+        "paragraphs": [
+          "GitHub Pagesis a free hosting service that turns your GitHub repository directly into a static website whenever you push it. This is useful for sharing analysis results, data science portfolios, project documentation, and more.",
+          "Common Operations:",
+          "Best Practices:",
+          "Tools:",
+          "",
+          ""
+        ],
+        "ordered_list": [
+          "Keep it smallOptimize images. Prefer SVG over WEBP over 8-bit PNG.Preloadcritical assets like stylesheetsAvoid committing large files like datasets, videos, etc. directly. ExploreGit LFSinstead.",
+          "Optimize images. Prefer SVG over WEBP over 8-bit PNG.",
+          "Preloadcritical assets like stylesheets",
+          "Avoid committing large files like datasets, videos, etc. directly. ExploreGit LFSinstead."
+        ],
+        "unordered_list": [
+          "GitHub Desktop: GUI for Git operations",
+          "GitHub CLI: Command line interface",
+          "GitHub Actions: Automation"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../rest-apis",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "REST APIs",
+        "paragraphs": [
+          "REST (Representational State Transfer) APIs are the standard way to build web services that allow different systems to communicate over HTTP. They use standard HTTP methods and JSON for data exchange.",
+          "Watch this comprehensive introduction to REST APIs (52 min):",
+          "",
+          "Key Concepts:",
+          "Here’s a minimal REST API using FastAPI. Run thisserver.pyscript viauv run server.py:",
+          "Test the API with curl:",
+          "Best Practices:",
+          "Tools:",
+          "Learn more about REST APIs:"
+        ],
+        "ordered_list": [
+          "HTTP MethodsGET: Retrieve dataPOST: Create new dataPUT/PATCH: Update existing dataDELETE: Remove data",
+          "GET: Retrieve data",
+          "POST: Create new data",
+          "PUT/PATCH: Update existing data",
+          "DELETE: Remove data",
+          "Status Codes2xx: Success (200 OK, 201 Created)4xx: Client errors (400 Bad Request, 404 Not Found)5xx: Server errors (500 Internal Server Error)",
+          "2xx: Success (200 OK, 201 Created)",
+          "4xx: Client errors (400 Bad Request, 404 Not Found)",
+          "5xx: Server errors (500 Internal Server Error)",
+          "Use Nouns for ResourcesGood:/users,/postsBad:/getUsers,/createPost",
+          "Good:/users,/posts",
+          "Bad:/getUsers,/createPost",
+          "Version Your API/api/v1/users\n/api/v2/usersCopy to clipboardErrorCopied",
+          "Handle Errors Consistently{\"error\":\"Not Found\",\"message\":\"User 123 not found\",\"status_code\":404}Copy to clipboardErrorCopied",
+          "Use Query Parameters for Filtering/api/posts?status=published&category=techCopy to clipboardErrorCopied",
+          "Implement Pagination/api/posts?page=2&limit=10Copy to clipboardErrorCopied"
+        ],
+        "unordered_list": [
+          "Postman: API testing and documentation",
+          "Swagger/OpenAPI: API documentation",
+          "HTTPie: Modern command-line HTTP client",
+          "JSON Schema: API request/response validation",
+          "REST API Design Best Practices",
+          "Microsoft REST API Guidelines",
+          "Google API Design Guide"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../visualizing-charts-with-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Visualizing Charts with Excel",
+        "paragraphs": [
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../nominatim-api-with-python",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Nominatim API with Python",
+        "paragraphs": [
+          "",
+          "You’ll learn how to get the latitude and longitude of any city from the Nominatim API.",
+          "Here are links and references:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Introduction to Nominatim: Understand how Nominatim, from OpenStreetMap, works similarly to Google Maps for geocoding.",
+          "Installation and Import: Learn to install and importgeopyandnominatim.",
+          "Using the Locator: Create a locator object using Nominatim and set up a user agent.",
+          "Geocoding an Address: Uselocator.geocodeto input an address (e.g., Eiffel Tower) and fetch geocoded data.",
+          "Extracting Data: Access detailed information like latitude, longitude, bounding box, and accurate address from the JSON response.",
+          "Classifying Locations: Identify the type of place (e.g., tourism, university) using the response data.",
+          "Practical Example: Geocode “IIT Madras” and retrieve its full address, type (university), and other relevant information.",
+          "Geocoding using Nominatim - Notebook",
+          "Learn about thegeocodersmodule in thegeopypackage",
+          "Learn about thenominatimpackage",
+          "If you get a HTTP Error 403 from Nominatim, use your email ID or your name instead of “myGeocoder” inNominatim(user_agent=\"myGeocoder\")"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../scraping-pdfs-with-tabula",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Scraping PDFs with Tabula",
+        "paragraphs": [
+          "",
+          "You’ll learn how to scrape tables from PDFs using thetabulaPython library, covering:",
+          "Here are links and references:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Import Libraries: Use Beautiful Soup for URL parsing and Tabula for extracting tables from PDFs.",
+          "Specify Save Location: Mount Google Drive to save scraped PDFs.",
+          "Identify PDF URLs: Parse the given URL to identify and select all PDF links.",
+          "Download PDFs: Loop through identified links, saving each PDF to the specified location.",
+          "Extract Tables: Use Tabula to read tabular content from the downloaded PDFs.",
+          "Control Extraction Area: Specify page and area coordinates to accurately extract tables, avoiding extraneous text.",
+          "Save Extracted Data: Convert the extracted table data into structured formats like CSV for further analysis.",
+          "PDF Scraping - Notebook",
+          "Learn about thetabulapackage",
+          "Learn about thepandaspackage.Video"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../colab",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Notebooks: Google Colab",
+        "paragraphs": [
+          "Google Colabis a free, cloud-based Jupyter notebook environment that’s become indispensable for data scientists and ML practitioners. It’s particularly valuable because it provides free access to GPUs and TPUs, and for easy sharing of code and execution results.",
+          "While Colab is excellent for prototyping and learning, its free tier has limitations - notebooks time out after 12 hours, and GPU access can be inconsistent.",
+          "Learn how to mount Google Drive for persistent storage, manage dependencies with!pip installcommands, as these are common pain points when getting started.",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Google Colab features you may have missed",
+          "How to mount Google Drive to Google Colab",
+          "How to take advantage of GPUs and TPUs for your ML project"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../network-analysis-in-python",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Network Analysis in Python",
+        "paragraphs": [
+          "",
+          "You’ll learn how to use network analysis to identify clusters and connections between nodes in a dataset, covering:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Network Construction: Build a network from the IMDB database, where nodes represent actors and edges represent shared movie appearances.",
+          "Clustering: Apply clustering techniques to detect communities within the network, using scikit-learn’s network library.",
+          "Matrix Operations: Utilize matrix operations to efficiently analyze actor relationships and interactions.",
+          "Community Detection: Implement algorithms to identify and interpret clusters, examining how different actor clusters are connected.",
+          "Application of Findings: Explore practical applications of network analysis, such as social network analysis and its potential uses in various domains.",
+          "Jupyter Notebook",
+          "Exploring the Movie Actor Network in Python",
+          "Jupyter Notebook - Shortest Path",
+          "Jupyter Notebook - Actor network",
+          "IMDb Datasets",
+          "Learn about thesknetworkpackage",
+          "Learn about thescipy.sparse matricesandvideo",
+          "Introduction to Kumu",
+          "Network analysis with Kumu",
+          "Introduction to Systems and Network Mapping with Kumu"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../data-preparation-in-the-editor",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Preparation in the Editor",
+        "paragraphs": [
+          "",
+          "You’ll learn how to use a text editorVisual Studio Codeto process and clean data, covering:",
+          "Here are the links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "FormatJSON files",
+          "Find alland multiple cursors to extract specific fields",
+          "Sortlines",
+          "Delete duplicatelines",
+          "Replacetext with multiple cursors",
+          "City-wise product sales JSON"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../vercel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Serverless hosting: Vercel",
+        "paragraphs": [
+          "Serverless platforms let you rent a single function instead of an entire machine. They’re perfect for small web tools thatdon’t need to run all the time. Here are some common real-life uses:",
+          "You only pay when someone uses your tool, and the platform automatically handles busy periods. For example, if 100 people fill out your contact form at once, the platform creates 100 temporary copies of your code to handle them all. When they’re done, these copies disappear. It’s cheaper than running a full-time server because you’re not paying for the time when no one is using your tool - most tools are idle 95% of the time!",
+          "Rather than writing a full program, serverless platforms let you write functions. These functions are called via HTTP requests. They run in a cloud environment and are scaled up and down automatically. But this means you write programs in a different style. For example:",
+          "Vercelis a cloud platform optimized for frontend frameworks and serverless functions. Vercel is tightly integrated with GitHub. Pushing to your repository automatically triggers new deployments.",
+          "Here’s aquickstart.Sign-up with Vercel. Create an emptygitrepo with thisapi/index.pyfile.",
+          "To deploy a FastAPI app, add arequirements.txtfile withfastapias a dependency.",
+          "Add your FastAPI code to a file, e.g.main.py.",
+          "Add avercel.jsonfile to the root of your repository.",
+          "On the command line, run:",
+          "Environment Variables. Usenpx vercel env addto add environment variables. In your code, useos.environ.get('SECRET_KEY')to access them."
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "A contact form that emails you when someone wants to hire you (runs for 2-3 seconds, a few times per day)",
+          "A tool that converts uploaded photos to black and white (runs for 5-10 seconds when someone uploads a photo)",
+          "A chatbot that answers basic questions about your business hours (runs for 1-2 seconds per question)",
+          "A newsletter sign-up that adds emails to your mailing list (runs for 1 second per sign-up)",
+          "A webhook that posts your Etsy sales to Discord (runs for 1 second whenever you make a sale)",
+          "You can’tpip installpackages - you have to userequirements.txt",
+          "You can’t read or write files from the file system - you can only use APIs.",
+          "You can’t run commands (e.g.subprocess.run())",
+          "npx vercelto deploy a test version",
+          "npx vercel --prodto deploy to production"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Videos",
+        "paragraphs": [
+          "",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../github-actions",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "CI/CD: GitHub Actions",
+        "paragraphs": [
+          "GitHub Actionsis a powerful automation platform built into GitHub. It helps automate your development workflow - running tests, deploying applications, updating datasets, retraining models, etc.",
+          "Here is a sample.github/workflows/iss-location.ymlthat runs daily, appends the International Space Station location data intoiss-location.json, and commits it to the repository.",
+          "Tools:",
+          ""
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Understand the basics ofYAML configuration files",
+          "Explore thepre-built actions from the marketplace",
+          "How tohandle secrets securely",
+          "Triggering a workflow",
+          "Staying within thefree tier limits",
+          "Caching dependencies to speed up workflows",
+          "GitHub CLI: Manage workflows from terminal",
+          "Super-Linter: Validate code style",
+          "Release Drafter: Automate releases",
+          "act: Run actions locally",
+          "How to handle secrets in GitHub Actions"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../parsing-json",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Parsing JSON",
+        "paragraphs": [
+          "JSON is everywhere—APIs, logs, configuration files—and its nested or large structure can challenge memory and processing. In this tutorial, we’ll explore tools to flatten, stream, and query JSON data efficiently.",
+          "For example, we’ll often need to process a multi-gigabyte log file from a web service where each record is a JSON object.",
+          "",
+          "This requires us to handle complex nested structures, large files that don’t fit in memory, or extract specific fields. Here are the key tools and techniques for efficient JSON parsing:",
+          "Examples:",
+          "Practice with these resources:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Use Pandas when you need to transform API responses into a DataFrame for further analysis.",
+          "Leverage ijson when dealing with huge JSON logs where memory is at a premium.",
+          "Apply jq for quick, iterative exploration directly in your terminal.",
+          "JSONPath Online Evaluator: Test JSON queries",
+          "jq play: Interactive jq query testing",
+          "DuckDB JSON Tutorial: Learn DuckDB JSON functions"
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Command-line JSON Processing with jq",
+        "paragraphs": [
+          "jqis a versatile command-line tool for slicing, filtering, and transforming JSON. It excels in quick data exploration and can be integrated into shell scripts for automated data pipelines.",
+          "Example:Sifting through server logs in JSON Lines format to extract error messages or aggregate metrics without launching a full-scale ETL process."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "JMESPath Queries",
+        "paragraphs": [
+          "JMESPathoffers a declarative query language to extract and transform data from nested JSON structures without needing verbose code. It’s a neat alternative when you want to quickly pull out specific values or filter collections based on conditions.",
+          "Example:Extracting user emails or filtering out inactive records from a complex JSON payload received from a cloud service."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Streaming with ijson",
+        "paragraphs": [
+          "Loading huge JSON files all at once can quickly exhaust system memory.ijsonlets you stream and process JSON incrementally. This method is ideal when your JSON file is too large or when you only need to work with part of the data.",
+          "Example:Processing a continuous feed from an API that returns a large JSON array, such as sensor data or event logs, while filtering on the fly."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "Pandas JSON Columns",
+        "paragraphs": [
+          "Pandasmakes it easy to work with tabular data that includes JSON strings. When you receive API data where one column holds nested JSON, flattening these structures lets you analyze and visualize the data using familiar DataFrame operations.",
+          "Example:Flattening customer records stored as nested JSON in a CSV file to extract demographic details and spending patterns."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "SQL JSON Functions",
+        "paragraphs": [
+          "SQLsupports built-in JSON functions allow you to query and manipulate JSON stored within relational databases.\nThese are implemented by most popular databases, includingSQLite,PostgreSQL, andMySQL.\nThis is especially handy when you have a hybrid data model, combining structured tables with semi-structured JSON columns.",
+          "Example:An application that stores user settings or application logs as JSON in a SQLite database, enabling quick lookups and modifications without external JSON parsing libraries."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      },
+      {
+        "type": "section",
+        "heading": "DuckDB JSON Processing",
+        "paragraphs": [
+          "DuckDBshines when analyzing JSON/JSONL files directly, making it a powerful tool for data analytics without the overhead of loading entire datasets into memory. Its SQL-like syntax simplifies exploratory analysis on nested data.",
+          "Example:Performing ad-hoc analytics on streaming JSON logs from a web service, such as calculating average response times or aggregating user behavior metrics."
+        ],
+        "ordered_list": [],
+        "unordered_list": []
+      }
+    ]
+  },
+  {
+    "page": "#/../data-cleansing-in-excel",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Data Cleansing in Excel",
+        "paragraphs": [
+          "",
+          "You’ll learn basic but essential data cleaning techniques in Excel, covering:",
+          "Here are links used in the video:"
+        ],
+        "ordered_list": [],
+        "unordered_list": [
+          "Find and Replace: Use Ctrl+H to replace or remove specific terms (e.g., removing “[more]” from country names).",
+          "Changing Data Formats: Convert columns from general to numerical format.",
+          "Removing Extra Spaces: Use the TRIM function to clean up unnecessary spaces in text.",
+          "Identifying and Removing Blank Cells: Highlight and delete entire rows with blank cells using the “Go To Special” function.",
+          "Removing Duplicates: Use the “Remove Duplicates” feature to eliminate duplicate entries, demonstrated with country names.",
+          "List of Largest Cities Excel file"
+        ]
+      }
+    ]
+  },
+  {
+    "page": "#/../sqlite",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Database: SQLite",
+        "paragraphs": [
+          "Relational databases are used to store data in a structured way. You’ll often access databases created by others for analysis.",
+          "PostgreSQL, MySQL, MS SQL, Oracle, etc. are popular databases. But the most installed database isSQLite. It’s embedded into many devices and apps (e.g. your phone, browser, etc.). It’s lightweight but very scalable and powerful.",
+          "Watch these introductory videos to understand SQLite and how it’s used in Python (34 min):",
+          "",
+          "",
+          "There are many non-relational databases (NoSQL) likeElasticSearch,MongoDB,Redis, etc. that you should know about and we may cover later.",
+          "Core Concepts:",
+          "Python Integration:",
+          "Common Operations:",
+          "Tools to work with SQLite:"
+        ],
+        "ordered_list": [
+          "Database Management-- Backup database.backup'backup.db'-- Import CSV.modecsv.importdata.csv table_name-- Export results.headerson.modecsv.output results.csvSELECT*FROMtable;Copy to clipboardErrorCopied",
+          "Performance Optimization-- Create indexCREATEINDEXidx_user_emailONusers(email);-- Analyze queryEXPLAINQUERYPLANSELECT*FROMusersWHEREemailLIKE'%@example.com';-- Show indexesSELECT*FROMsqlite_masterWHEREtype='index';Copy to clipboardErrorCopied",
+          "Data Analysis-- Time series aggregationSELECTdate(timestamp),COUNT(*)asevents,AVG(duration)asavg_durationFROMeventsGROUPBYdate(timestamp);-- Window functionsSELECT*,AVG(amount)OVER(PARTITIONBYuser_idORDERBYdateROWSBETWEEN3PRECEDINGANDCURRENTROW)asmoving_avgFROMtransactions;Copy to clipboardErrorCopied"
+        ],
+        "unordered_list": [
+          "SQLiteStudio: Lightweight GUI",
+          "DBeaver: Full-featured GUI",
+          "sqlite-utils: CLI tool",
+          "Datasette: Web interface"
+        ]
+      }
+    ]
+  }
+]
